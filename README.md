@@ -17,4 +17,6 @@ A button is available to reset the tower. This will destroy the current tower, a
 
 ## Try it
 
-// Snapcode TBA
+![Snapcode](Snapcodes/snapcode.png)
+
+Alternatively available [here](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=cf61b88ec34241b59e4c8373eaf2bea6&metadata=01).

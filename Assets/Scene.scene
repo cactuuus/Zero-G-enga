@@ -5839,21 +5839,6 @@
     - !<own> f557701d-00c4-4af0-be61-a1164b1d80bd
   Components:
     []
-- !<SceneObject/6d54e2cd-f8aa-478f-ae40-5248d2b40165>
-  PrefabRemaps:
-    []
-  Name: Color Gradient
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 120.000000, y: 0.000000, z: -80.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> d90aa9d0-dbd6-4b89-ae24-d109df7a08e5
 - !<SceneObject/6fc1f922-2c5a-4908-84ad-4017c6a6f62e>
   PrefabRemaps:
     []
@@ -8277,7 +8262,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -60.000000, z: -70.000000}
+    position: {x: 0.000000, y: -60.000000, z: -60.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -11314,13 +11299,6 @@
     - !<own> 2cd2ea5a-f6a7-4448-9529-9bc939d18a10
   Components:
     []
-- !<PostEffectVisual/d90aa9d0-dbd6-4b89-ae24-d109df7a08e5>
-  PrefabRemaps:
-    []
-  Name: Post Effect
-  Enabled: true
-  RenderOrder: -1
-  Material: !<reference> 0c07799f-e6fc-4cda-9b30-d671a45aa36b
 - !<SceneObject/da1ca0ce-c07c-407e-8e56-f949f3939b39>
   PrefabRemaps:
     []
@@ -11351,7 +11329,6 @@
     - !<own> c8b0824e-4309-46b4-9981-92e8acdbd83b
     - !<own> 5c3f7455-4f5b-4490-8bb9-4e39b4d555da
     - !<own> a83c4e32-baec-4c4f-bba2-4e118d7f9921
-    - !<own> 6d54e2cd-f8aa-478f-ae40-5248d2b40165
   Components:
     - !<own> 727acc19-1a31-4982-bddd-71a510698f35
     - !<own> 8d5af5c3-75c3-495d-97c3-164e4f2e6d32
