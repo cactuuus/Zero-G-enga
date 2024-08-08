@@ -1,0 +1,35 @@
+studioVersion:
+  major: 5
+  minor: 0
+  patch: 17
+  build: 24072909
+updateCheckpoint: 44
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+viewConfig:
+  simulation:
+    device: No Simulation
+    cameraFov: 66.519997
+    fullFrameAspect: nan
+    viewport: Maximized
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Unknown
+  cameraType: Front
+metaInfo:
+  hints:
+    []
+  lensName: Zero G-enga
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Mobile
+    - Web
+  iconHash: 02659bdf2f1fbd9b59c18853d935b83d
+  fromTemplateName: Default
+  fromTemplateUrl: Lens Studio 5.0.17.24072909
+  activationCamera: Rear
+  hasVideoPreview: true
+  sourceMapEnabled: false

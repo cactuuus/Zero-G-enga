@@ -1,0 +1,7 @@
+- !<Matter/a12b9b99-e15c-4b22-bf40-17baac858ff6>
+  PackagePath: ""
+  Friction: 0.500000
+  RollingFriction: 0.020000
+  SpinningFriction: 0.020000
+  DynamicBounciness: 0.500000
+  StaticBounciness: 0.500000

@@ -1,0 +1,5034 @@
+- !<AssetImportMetadata/d1cc4e7a-62d6-428c-baed-92224c367c99>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d9881507-e8e6-4993-aa47-2d553372444a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d9881507-e8e6-4993-aa47-2d553372444a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 75c52f87-8ca1-4f4c-9f1e-75a535ed4f2a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/86233397-ddec-4914-9efa-cb8112ad9e5d>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/01b400eb-4b86-439f-a617-2787d18e2d74>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f659db14-3106-4411-8007-961deccc2b44
+    - !<own> c5f2a9d2-640c-444d-a9f1-a07d5aed88b3
+- !<SceneObject/0421139d-de90-4dea-b320-719bb6d3f6da>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 24.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4438b107-d1b4-440f-8f85-e34d310f9c54
+    - !<own> fe5fb3f0-a1a3-472d-a5f1-ff1a63209527
+    - !<own> 196ecc93-c308-4678-b5c8-a5e507fd5816
+  Components:
+    []
+- !<ScriptComponent/06b2e548-326d-4ee7-85ad-80e298df7f14>
+  PrefabRemaps:
+    []
+  Name: Behavior
+  Enabled: true
+  ScriptAsset: !<reference> 45454e44-c07a-464e-a6f8-a82a6f410224
+  ScriptInputsDefault:
+    touchEventEventType: true
+    touchEventTouchTarget: true
+    faceEventEventType: true
+    faceEventFaceIndex: true
+    onEnabledObject: true
+    onDisabledObject: true
+    interactionEventEventType: true
+    interactionEventTarget: true
+    animType: true
+    animationEndAnimatedTexture: true
+    animationEndImageVisual: true
+    animationEndAnimMixer: true
+    animationEndAnimLayerName: true
+    tweenEndTargetObject: true
+    tweenEndTweenName: true
+    lookingAtLookingObject: true
+    lookingAtLookTarget: true
+    lookingAtFlipForwardVec: true
+    lookingAtCompareType: true
+    lookingAtAngle: true
+    lookingAtAllowRepeat: true
+    boundsCheckObject: true
+    boundsCheckBoundaryMeshVisual: true
+    boundsCheckTriggerOptions: true
+    distanceCheckObjectA: true
+    distanceCheckObjectB: true
+    distanceCheckCompareType: true
+    distanceCheckDistance: true
+    distanceCheckAllowRepeat: true
+    distanceCheckFlattenZForScreenTransforms: true
+    markerTrackingEventEventType: true
+    markerTrackingEventMarkerTracking: true
+    objectTrackingEventEventType: true
+    objectTrackingEventObjectTracking: true
+    objectTrackingEventDescStartKey: true
+    objectTrackingEventDescEndKey: true
+    objectTracking3DEventObjectTracking3D: true
+    objectTracking3DEventEventType: true
+    landmarkerEventEventType: true
+    landmarkerEventLocationTracking: true
+    machineLearningEventEventType: true
+    machineLearningEventMlComponent: true
+    recordingEventEventType: true
+    onCustomTriggerTriggerNames: true
+    onCustomTriggerUseList: true
+    physicsColliderEventCollider: true
+    physicsColliderEventCollisionType: true
+    physicsColliderEventEventType: true
+    physicsColliderEventOverlapStatic: true
+    physicsColliderEventOverlapDynamic: true
+    physicsColliderEventOverlapIntangible: true
+    physicsColliderEventFilterObjectsBy: true
+    physicsColliderEventAllowedObjects: true
+    physicsColliderEventNameMatchType: true
+    physicsColliderEventAllowedNames: true
+    physicsRaycastRaycastSource: true
+    physicsRaycastSourceObject: true
+    physicsRaycastFlipForwardVec: true
+    physicsRaycastCamera: true
+    physicsRaycastTapEvent: true
+    physicsRaycastTouchStartEvent: true
+    physicsRaycastTouchMoveEvent: true
+    physicsRaycastTouchEndEvent: true
+    physicsRaycastProbeType: true
+    physicsRaycastPhysicsWorld: true
+    physicsRaycastMaxDistance: true
+    physicsRaycastDebugDrawEnabled: true
+    physicsRaycastOverlapStatic: true
+    physicsRaycastOverlapDynamic: true
+    physicsRaycastOverlapIntangible: true
+    physicsRaycastFilterObjectsBy: true
+    physicsRaycastAllowedObjects: true
+    physicsRaycastNameMatchType: true
+    physicsRaycastAllowedNames: true
+    triggerLimitType: true
+    triggerInterval: true
+    triggerDelay: true
+    animateImageAnimatedTexture: true
+    animateImageVisualObject: true
+    animateImageAction: true
+    animateImageLoop: true
+    animateImagePauseFrame: true
+    animateImageAdvanced: true
+    animateImagePingPong: true
+    animateImageReverse: true
+    animateMeshAnimationMixer: true
+    animateMeshLayerName: true
+    animateMeshAction: true
+    animateMeshWeight: true
+    animateMeshLoop: true
+    animateMeshStopOtherLayers: true
+    playSoundAction: true
+    playSoundAudioTrack: true
+    playSoundAudioComponent: true
+    playSoundLoop: true
+    playSoundVolume: true
+    playSoundFadeOut: true
+    playVideoVideoTexture: true
+    playVideoVisualObject: true
+    playVideoAction: true
+    playVideoLoop: true
+    setEnabledEntityType: true
+    setEnabledTargetComponent: true
+    setParentTarget: true
+    setParentNewParent: true
+    setParentPreserveWorldTransform: true
+    setColorVisual: true
+    setColorMaterial: true
+    setColorColor: true
+    setTextureTarget: true
+    setTextureNewTexture: true
+    setTextComponentType: true
+    setTextTextComponent: true
+    setTextText3DComponent: true
+    setTextText: true
+    runTweenTargetObject: true
+    runTweenTweenName: true
+    runTweenAction: true
+    setPositionObjectToMove: true
+    setPositionPosition: true
+    setPositionLocalSpace: true
+    setRotationObjectToRotate: true
+    setRotationRotationAngle: true
+    setRotationLocalSpace: true
+    setScaleObjectToScale: true
+    setScaleScale: true
+    setScaleLocalSpace: true
+    setScreenPositionScreenTransform: true
+    setScreenPositionPositionType: true
+    setScreenPositionBasicPosition: true
+    setScreenPositionAnchorsCenter: true
+    setScreenPositionOffsetsCenter: true
+    setScreenRotationScreenTransform: true
+    setScreenRotationAngle: true
+    setScreenSizeScreenTransform: true
+    setScreenSizeSizeType: true
+    setScreenSizeBasicScale: true
+    setScreenSizeAnchorsSize: true
+    setScreenSizeOffsetsSize: true
+    setBlendshapesV2MeshVisual: true
+    setBlendshapesV2Name: true
+    setBlendshapesV2Weight: true
+    setMaterialParameterTargetType: true
+    setMaterialParameterMaterial: true
+    setMaterialParameterMeshVisual: true
+    setMaterialParameterVFXAsset: true
+    setMaterialParameterVFXComponent: true
+    setMaterialParameterParameterName: true
+    setMaterialParameterValueType: true
+    setMaterialParameterBoolValue: true
+    setMaterialParameterIntValue: true
+    setMaterialParameterFloatValue: true
+    setMaterialParameterColorRGBValue: true
+    setMaterialParameterColorRGBAValue: true
+    setMaterialParameterTextureValue: true
+    setMaterialParameterVec2Value: true
+    setMaterialParameterVec3Value: true
+    setMaterialParameterVec4Value: true
+    setTouchBlockingTargetType: true
+    setTouchBlockingGlobalTouchBlocking: true
+    setTouchBlockingTouchComponent: true
+    setTouchBlockingTouchTypeTouch: true
+    setTouchBlockingTouchTypeTap: true
+    setTouchBlockingTouchTypeDoubleTap: true
+    setTouchBlockingTouchTypeScale: true
+    setTouchBlockingTouchTypePan: true
+    setTouchBlockingTouchTypeSwipe: true
+    showHintHint: true
+    showHintDuration: true
+    runMLMlComponent: true
+    runMLAction: true
+    runMLSync: true
+    runMLRecurring: true
+    runMLStartTiming: true
+    runMLEndTiming: true
+    instantiatePrefabPrefab: true
+    instantiatePrefabParent: true
+    destroyObjectObject: true
+    printMessageText: true
+    callScriptAPITargetType: true
+    callScriptAPISceneObject: true
+    callScriptAPIComponent: true
+    callScriptAPIScriptComponent: true
+    callScriptAPICallType: true
+    callScriptAPIFunctionName: true
+    callScriptAPIPropertyName: true
+    callScriptAPI_arg1ValueType: true
+    callScriptAPI_arg1BoolValue: true
+    callScriptAPI_arg1IntValue: true
+    callScriptAPI_arg1FloatValue: true
+    callScriptAPI_arg1StringValue: true
+    callScriptAPI_arg1ColorRGBValue: true
+    callScriptAPI_arg1ColorRGBAValue: true
+    callScriptAPI_arg1Vec2Value: true
+    callScriptAPI_arg1Vec3Value: true
+    callScriptAPI_arg1Vec4Value: true
+    callScriptAPI_arg1QuatValue: true
+    callScriptAPI_arg1SceneObjectValue: true
+    callScriptAPI_arg1AssetValue: true
+    callScriptAPI_arg1TextureValue: true
+    callScriptAPI_arg1ComponentValue: true
+    callScriptAPI_arg1BoolArrayValue: true
+    callScriptAPI_arg1IntArrayValue: true
+    callScriptAPI_arg1FloatArrayValue: true
+    callScriptAPI_arg1StringArrayValue: true
+    callScriptAPI_arg1Vec2ArrayValue: true
+    callScriptAPI_arg1Vec3ArrayValue: true
+    callScriptAPI_arg1Vec4ArrayValue: true
+    callScriptAPI_arg1QuatArrayValue: true
+    callScriptAPI_arg1SceneObjectArrayValue: true
+    callScriptAPI_arg1AssetArrayValue: true
+    callScriptAPI_arg1TextureArrayValue: true
+    callScriptAPI_arg1ComponentArrayValue: true
+    callScriptAPI_arg2ValueType: true
+    callScriptAPI_arg2BoolValue: true
+    callScriptAPI_arg2IntValue: true
+    callScriptAPI_arg2FloatValue: true
+    callScriptAPI_arg2StringValue: true
+    callScriptAPI_arg2ColorRGBValue: true
+    callScriptAPI_arg2ColorRGBAValue: true
+    callScriptAPI_arg2Vec2Value: true
+    callScriptAPI_arg2Vec3Value: true
+    callScriptAPI_arg2Vec4Value: true
+    callScriptAPI_arg2QuatValue: true
+    callScriptAPI_arg2SceneObjectValue: true
+    callScriptAPI_arg2AssetValue: true
+    callScriptAPI_arg2TextureValue: true
+    callScriptAPI_arg2ComponentValue: true
+    callScriptAPI_arg2BoolArrayValue: true
+    callScriptAPI_arg2IntArrayValue: true
+    callScriptAPI_arg2FloatArrayValue: true
+    callScriptAPI_arg2StringArrayValue: true
+    callScriptAPI_arg2Vec2ArrayValue: true
+    callScriptAPI_arg2Vec3ArrayValue: true
+    callScriptAPI_arg2Vec4ArrayValue: true
+    callScriptAPI_arg2QuatArrayValue: true
+    callScriptAPI_arg2SceneObjectArrayValue: true
+    callScriptAPI_arg2AssetArrayValue: true
+    callScriptAPI_arg2TextureArrayValue: true
+    callScriptAPI_arg2ComponentArrayValue: true
+    callScriptAPI_valueValueType: true
+    callScriptAPI_valueBoolValue: true
+    callScriptAPI_valueIntValue: true
+    callScriptAPI_valueFloatValue: true
+    callScriptAPI_valueStringValue: true
+    callScriptAPI_valueColorRGBValue: true
+    callScriptAPI_valueColorRGBAValue: true
+    callScriptAPI_valueVec2Value: true
+    callScriptAPI_valueVec3Value: true
+    callScriptAPI_valueVec4Value: true
+    callScriptAPI_valueQuatValue: true
+    callScriptAPI_valueSceneObjectValue: true
+    callScriptAPI_valueAssetValue: true
+    callScriptAPI_valueTextureValue: true
+    callScriptAPI_valueComponentValue: true
+    callScriptAPI_valueBoolArrayValue: true
+    callScriptAPI_valueIntArrayValue: true
+    callScriptAPI_valueFloatArrayValue: true
+    callScriptAPI_valueStringArrayValue: true
+    callScriptAPI_valueVec2ArrayValue: true
+    callScriptAPI_valueVec3ArrayValue: true
+    callScriptAPI_valueVec4ArrayValue: true
+    callScriptAPI_valueQuatArrayValue: true
+    callScriptAPI_valueSceneObjectArrayValue: true
+    callScriptAPI_valueAssetArrayValue: true
+    callScriptAPI_valueTextureArrayValue: true
+    callScriptAPI_valueComponentArrayValue: true
+    sendCustomTriggerTriggerName: true
+    sendCustomTriggerTriggerNames: true
+    sendCustomTriggerUseList: true
+    sendCustomTriggerLoopAfterEnd: true
+    physicsApplyForceBody: true
+    physicsApplyForceForceType: true
+    physicsApplyForceMode: true
+    physicsApplyForceForceValue: true
+    physicsApplyForceSpace: true
+    physicsApplyForceObjectSpace: true
+    sceneManagerLoadSceneSceneName: true
+    sceneManagerLoadSceneLoadType: true
+    sceneManagerLoadSceneLoadAdditively: true
+    sceneManagerLoadSceneLoadEnabled: true
+    sceneManagerLoadSceneCustomizeSceneRoot: true
+    sceneManagerLoadSceneSceneRootObject: true
+    sceneManagerLoadSceneUseLoadingScene: true
+    sceneManagerLoadSceneLoadingSceneName: true
+    sceneManagerLoadSceneCallbackOnProgress: true
+    sceneManagerLoadSceneOnProgressCallbackScriptComponent: true
+    sceneManagerLoadSceneOnProgressCallbackFunctionName: true
+    sceneManagerLoadSceneCallbackOnComplete: true
+    sceneManagerLoadSceneOnCompleteCallbackScriptComponent: true
+    sceneManagerLoadSceneOnCompleteCallbackFunctionName: true
+    setBlendshapesBlendshapes: true
+    setBlendshapesName: true
+    setBlendshapesWeight: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      triggeringEventType: onCustomTrigger
+      touchEventEventType: TapEvent
+      touchEventTouchTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      faceEventEventType: MouthOpenedEvent
+      faceEventFaceIndex: 0
+      onEnabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      onDisabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      interactionEventEventType: onTap
+      interactionEventTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      animType: Animated Texture
+      animationEndAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      animationEndImageVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      animationEndAnimMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animationEndAnimLayerName: ""
+      tweenEndTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenEndTweenName: ""
+      lookingAtLookingObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookingAtLookTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookingAtFlipForwardVec: true
+      lookingAtCompareType: -1
+      lookingAtAngle: !<float> 10.000000
+      lookingAtAllowRepeat: false
+      boundsCheckObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boundsCheckBoundaryMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      boundsCheckTriggerOptions: On Enter
+      distanceCheckObjectA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distanceCheckObjectB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distanceCheckCompareType: -1
+      distanceCheckDistance: !<float> 1.000000
+      distanceCheckAllowRepeat: false
+      distanceCheckFlattenZForScreenTransforms: true
+      markerTrackingEventEventType: Marker Found
+      markerTrackingEventMarkerTracking: !<reference.MarkerTrackingComponent> 00000000-0000-0000-0000-000000000000
+      objectTrackingEventEventType: Object Found
+      objectTrackingEventObjectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectTrackingEventDescStartKey: ""
+      objectTrackingEventDescEndKey: ""
+      objectTracking3DEventObjectTracking3D: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      objectTracking3DEventEventType: Tracking Started
+      landmarkerEventEventType: Location Found
+      landmarkerEventLocationTracking: !<reference.DeviceLocationTrackingComponent> 00000000-0000-0000-0000-000000000000
+      machineLearningEventEventType: Loading Finished
+      machineLearningEventMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      recordingEventEventType: SnapRecordStartEvent
+      onCustomTriggerTriggerName: front_camera
+      onCustomTriggerTriggerNames: !<string[]>
+        []
+      onCustomTriggerUseList: false
+      physicsColliderEventCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      physicsColliderEventCollisionType: Collision
+      physicsColliderEventEventType: On Enter
+      physicsColliderEventOverlapStatic: true
+      physicsColliderEventOverlapDynamic: true
+      physicsColliderEventOverlapIntangible: true
+      physicsColliderEventFilterObjectsBy: None
+      physicsColliderEventAllowedObjects: !<reference.ColliderComponent[]>
+        []
+      physicsColliderEventNameMatchType: Equals
+      physicsColliderEventAllowedNames: !<string[]>
+        []
+      physicsRaycastRaycastSource: touch
+      physicsRaycastSourceObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      physicsRaycastFlipForwardVec: false
+      physicsRaycastCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      physicsRaycastTapEvent: true
+      physicsRaycastTouchStartEvent: false
+      physicsRaycastTouchMoveEvent: false
+      physicsRaycastTouchEndEvent: false
+      physicsRaycastProbeType: global
+      physicsRaycastPhysicsWorld: !<reference.WorldComponent> 00000000-0000-0000-0000-000000000000
+      physicsRaycastMaxDistance: !<float> 10000.000000
+      physicsRaycastDebugDrawEnabled: false
+      physicsRaycastOverlapStatic: true
+      physicsRaycastOverlapDynamic: true
+      physicsRaycastOverlapIntangible: true
+      physicsRaycastFilterObjectsBy: None
+      physicsRaycastAllowedObjects: !<reference.ColliderComponent[]>
+        []
+      physicsRaycastNameMatchType: Equals
+      physicsRaycastAllowedNames: !<string[]>
+        []
+      triggerLimitType: Always
+      triggerInterval: !<float> 1.000000
+      triggerDelay: !<float> 0.000000
+      responseType: setEnabled
+      animateImageAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      animateImageVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      animateImageAction: Play or Resume
+      animateImageLoop: false
+      animateImagePauseFrame: 0
+      animateImageAdvanced: false
+      animateImagePingPong: false
+      animateImageReverse: false
+      animateMeshAnimationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animateMeshLayerName: ""
+      animateMeshAction: Play or Resume
+      animateMeshWeight: !<float> 1.000000
+      animateMeshLoop: false
+      animateMeshStopOtherLayers: true
+      playSoundAction: Play
+      playSoundAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      playSoundAudioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      playSoundLoop: false
+      playSoundVolume: !<float> 1.000000
+      playSoundFadeOut: false
+      playVideoVideoTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      playVideoVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      playVideoAction: Play or Resume
+      playVideoLoop: false
+      setEnabledEntityType: SceneObject
+      setEnabledTarget: !<reference.SceneObject> 3d9952fe-b5ea-4346-9833-9936edcedbf3
+      setEnabledTargetComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      setEnabledAction: Disable
+      setParentTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setParentNewParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setParentPreserveWorldTransform: false
+      setColorVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setColorMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      setColorColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      setTextureTarget: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setTextureNewTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      setTextComponentType: Text
+      setTextTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      setTextText3DComponent: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      setTextText: ""
+      runTweenTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      runTweenTweenName: ""
+      runTweenAction: Start
+      setPositionObjectToMove: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setPositionPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setPositionLocalSpace: true
+      setRotationObjectToRotate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setRotationRotationAngle: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setRotationLocalSpace: true
+      setScaleObjectToScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setScaleScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScaleLocalSpace: true
+      setScreenPositionScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenPositionPositionType: Basic Position
+      setScreenPositionBasicPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScreenPositionAnchorsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenPositionOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenRotationScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenRotationAngle: !<float> 0.000000
+      setScreenSizeScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenSizeSizeType: Basic Scale
+      setScreenSizeBasicScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScreenSizeAnchorsSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenSizeOffsetsSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      setBlendshapesV2MeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      setBlendshapesV2Name: ""
+      setBlendshapesV2Weight: !<float> 0.000000
+      setMaterialParameterTargetType: Material
+      setMaterialParameterMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVFXAsset: !<reference.VFXAsset> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVFXComponent: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterParameterName: ""
+      setMaterialParameterValueType: float
+      setMaterialParameterBoolValue: false
+      setMaterialParameterIntValue: 0
+      setMaterialParameterFloatValue: !<float> 0.000000
+      setMaterialParameterColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setMaterialParameterColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      setMaterialParameterTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      setMaterialParameterVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setMaterialParameterVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      setTouchBlockingTargetType: Global Touches
+      setTouchBlockingGlobalTouchBlocking: true
+      setTouchBlockingTouchComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      setTouchBlockingTouchTypeTouch: false
+      setTouchBlockingTouchTypeTap: false
+      setTouchBlockingTouchTypeDoubleTap: false
+      setTouchBlockingTouchTypeScale: false
+      setTouchBlockingTouchTypePan: false
+      setTouchBlockingTouchTypeSwipe: false
+      showHintHint: 0
+      showHintDuration: !<float> 2.000000
+      runMLMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      runMLAction: Run Immediate
+      runMLSync: false
+      runMLRecurring: false
+      runMLStartTiming: 2
+      runMLEndTiming: 4
+      instantiatePrefabPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      instantiatePrefabParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      destroyObjectObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      printMessageText: ""
+      callScriptAPITargetType: Component
+      callScriptAPISceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPIComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPIScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      callScriptAPICallType: 0
+      callScriptAPIFunctionName: ""
+      callScriptAPIPropertyName: ""
+      callScriptAPI_arg1ValueType: None
+      callScriptAPI_arg1BoolValue: false
+      callScriptAPI_arg1IntValue: 0
+      callScriptAPI_arg1FloatValue: !<float> 0.000000
+      callScriptAPI_arg1StringValue: ""
+      callScriptAPI_arg1ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg1ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg1Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_arg1Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg1Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg1QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_arg1SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1BoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_arg1IntArrayValue: !<int[]>
+        []
+      callScriptAPI_arg1FloatArrayValue: !<float[]>
+        []
+      callScriptAPI_arg1StringArrayValue: !<string[]>
+        []
+      callScriptAPI_arg1Vec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_arg1Vec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_arg1Vec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_arg1QuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_arg1SceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_arg1AssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_arg1TextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_arg1ComponentArrayValue: !<reference.Component[]>
+        []
+      callScriptAPI_arg2ValueType: None
+      callScriptAPI_arg2BoolValue: false
+      callScriptAPI_arg2IntValue: 0
+      callScriptAPI_arg2FloatValue: !<float> 0.000000
+      callScriptAPI_arg2StringValue: ""
+      callScriptAPI_arg2ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg2ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg2Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_arg2Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg2Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg2QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_arg2SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2BoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_arg2IntArrayValue: !<int[]>
+        []
+      callScriptAPI_arg2FloatArrayValue: !<float[]>
+        []
+      callScriptAPI_arg2StringArrayValue: !<string[]>
+        []
+      callScriptAPI_arg2Vec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_arg2Vec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_arg2Vec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_arg2QuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_arg2SceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_arg2AssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_arg2TextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_arg2ComponentArrayValue: !<reference.Component[]>
+        []
+      callScriptAPI_valueValueType: float
+      callScriptAPI_valueBoolValue: false
+      callScriptAPI_valueIntValue: 0
+      callScriptAPI_valueFloatValue: !<float> 0.000000
+      callScriptAPI_valueStringValue: ""
+      callScriptAPI_valueColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_valueColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_valueVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_valueVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_valueVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_valueQuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_valueSceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueAssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueBoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_valueIntArrayValue: !<int[]>
+        []
+      callScriptAPI_valueFloatArrayValue: !<float[]>
+        []
+      callScriptAPI_valueStringArrayValue: !<string[]>
+        []
+      callScriptAPI_valueVec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_valueVec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_valueVec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_valueQuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_valueSceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_valueAssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_valueTextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_valueComponentArrayValue: !<reference.Component[]>
+        []
+      sendCustomTriggerTriggerName: ""
+      sendCustomTriggerTriggerNames: !<string[]>
+        []
+      sendCustomTriggerUseList: false
+      sendCustomTriggerLoopAfterEnd: true
+      physicsApplyForceBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      physicsApplyForceForceType: Position
+      physicsApplyForceMode: Impulse
+      physicsApplyForceForceValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      physicsApplyForceSpace: World
+      physicsApplyForceObjectSpace: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneSceneName: ""
+      sceneManagerLoadSceneLoadType: Asynchronous
+      sceneManagerLoadSceneLoadAdditively: true
+      sceneManagerLoadSceneLoadEnabled: true
+      sceneManagerLoadSceneCustomizeSceneRoot: false
+      sceneManagerLoadSceneSceneRootObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneUseLoadingScene: false
+      sceneManagerLoadSceneLoadingSceneName: ""
+      sceneManagerLoadSceneCallbackOnProgress: false
+      sceneManagerLoadSceneOnProgressCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneOnProgressCallbackFunctionName: ""
+      sceneManagerLoadSceneCallbackOnComplete: false
+      sceneManagerLoadSceneOnCompleteCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneOnCompleteCallbackFunctionName: ""
+      setBlendshapesBlendshapes: !<reference.BlendShapes> 00000000-0000-0000-0000-000000000000
+      setBlendshapesName: ""
+      setBlendshapesWeight: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/074c1624-eac1-496c-8912-0ea9ba38102d>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 848acf04-120e-4622-8a99-d97dc16a2571
+    - !<own> c6ef7d09-a58b-4279-9724-30e875fe52a0
+- !<SceneObject/0788910f-eb01-4234-b6ec-10faf1156e5d>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 141be5a0-460c-404f-86ee-a54bfe23816d
+    - !<own> d0a1542a-fcf6-4486-9ed8-76a6d818336e
+- !<RenderMeshVisual/082dbab5-c459-477f-b0ae-8980d22f8025>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/09880fe9-1b36-4c86-874b-37b269647715>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/0a24a95a-4681-4b2e-97a6-9e4b818a1bcb>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fcbc553f-09b6-4216-91c5-8da5e4e82c18
+    - !<own> fd4dae37-25b6-499d-8ae1-6f5b6d1df604
+- !<RenderMeshVisual/0a830967-244e-4f86-a4a7-429c6c38e959>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/0c6f530f-9cd1-47fd-81a1-ce89d4cbdf66>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/0daa08c8-9d3d-4cf4-882b-c30203534538>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ea7ee872-8d2c-43c2-9620-3fe0a882843d
+    - !<own> 82df9b34-695b-4707-8db2-57039ea55918
+- !<SceneObject/0ed8606c-eef4-4cfe-954e-d7b00457a77f>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ec3f7986-57a4-4a45-b904-ee190d0c3843
+    - !<own> 3c24ae34-e393-487e-867e-7f8c252ca21c
+- !<SceneObject/0f4ea4eb-5d5c-4f5e-9362-40542b6861fe>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 30.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0a24a95a-4681-4b2e-97a6-9e4b818a1bcb
+    - !<own> 3b6035f0-b6d9-4b09-a4c2-e2e442cefccb
+    - !<own> 2c20bdf2-e243-443e-af05-270ad4de2527
+  Components:
+    []
+- !<RenderMeshVisual/0f7f8fbf-137a-42fb-bca3-ee3bbce196c8>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/0fa1209f-d37a-4e60-998a-f8b2084af9a5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/0fa2a89d-a79e-4e54-809c-5141127f93d0>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dd302739-f1b8-456c-a334-a319071b08e5
+    - !<own> 6548df5b-f7b6-4618-b358-fbb6e05df53f
+- !<SceneObject/10e48e84-4485-4019-9d14-2476814a75c0>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7871e668-569b-4d48-8e71-6314d2dadcad
+    - !<own> 6e6c7104-e845-4150-a3d8-c30cf6ec30c9
+- !<BodyComponent/141be5a0-460c-404f-86ee-a54bfe23816d>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/14d4abc8-4919-42cb-9966-d57bf14ef8c6>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/196ecc93-c308-4678-b5c8-a5e507fd5816>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 55539500-2413-4e34-ab99-2c1f38e96458
+    - !<own> 80afc07f-1ea2-432b-a200-4eb505cf22c9
+- !<SceneObject/1c564e86-f202-4767-86df-dbe241051c48>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c8297c51-f647-494f-bf81-19a9393be530
+    - !<own> f2bfdc10-f006-46dc-b2ab-b8942c64a7ff
+- !<SceneObject/20ad02e9-3844-471d-83a1-3ac19676bf82>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 09880fe9-1b36-4c86-874b-37b269647715
+    - !<own> 0a830967-244e-4f86-a4a7-429c6c38e959
+- !<SceneObject/281ab82c-b291-4eab-8c33-1d411f76f142>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d1a6cabe-f94a-4272-9ff0-e8c90df68476
+    - !<own> d875d533-730b-488a-aaaf-3f558797bb57
+- !<ScriptComponent/288ad0c7-790a-46cd-8395-fabb083b40eb>
+  PrefabRemaps:
+    []
+  Name: Behavior
+  Enabled: true
+  ScriptAsset: !<reference> 45454e44-c07a-464e-a6f8-a82a6f410224
+  ScriptInputsDefault:
+    touchEventEventType: true
+    touchEventTouchTarget: true
+    faceEventEventType: true
+    faceEventFaceIndex: true
+    onEnabledObject: true
+    onDisabledObject: true
+    interactionEventEventType: true
+    interactionEventTarget: true
+    animType: true
+    animationEndAnimatedTexture: true
+    animationEndImageVisual: true
+    animationEndAnimMixer: true
+    animationEndAnimLayerName: true
+    tweenEndTargetObject: true
+    tweenEndTweenName: true
+    lookingAtLookingObject: true
+    lookingAtLookTarget: true
+    lookingAtFlipForwardVec: true
+    lookingAtCompareType: true
+    lookingAtAngle: true
+    lookingAtAllowRepeat: true
+    boundsCheckObject: true
+    boundsCheckBoundaryMeshVisual: true
+    boundsCheckTriggerOptions: true
+    distanceCheckObjectA: true
+    distanceCheckObjectB: true
+    distanceCheckCompareType: true
+    distanceCheckDistance: true
+    distanceCheckAllowRepeat: true
+    distanceCheckFlattenZForScreenTransforms: true
+    markerTrackingEventEventType: true
+    markerTrackingEventMarkerTracking: true
+    objectTrackingEventEventType: true
+    objectTrackingEventObjectTracking: true
+    objectTrackingEventDescStartKey: true
+    objectTrackingEventDescEndKey: true
+    objectTracking3DEventObjectTracking3D: true
+    objectTracking3DEventEventType: true
+    landmarkerEventEventType: true
+    landmarkerEventLocationTracking: true
+    machineLearningEventEventType: true
+    machineLearningEventMlComponent: true
+    recordingEventEventType: true
+    onCustomTriggerTriggerNames: true
+    onCustomTriggerUseList: true
+    physicsColliderEventCollider: true
+    physicsColliderEventCollisionType: true
+    physicsColliderEventEventType: true
+    physicsColliderEventOverlapStatic: true
+    physicsColliderEventOverlapDynamic: true
+    physicsColliderEventOverlapIntangible: true
+    physicsColliderEventFilterObjectsBy: true
+    physicsColliderEventAllowedObjects: true
+    physicsColliderEventNameMatchType: true
+    physicsColliderEventAllowedNames: true
+    physicsRaycastRaycastSource: true
+    physicsRaycastSourceObject: true
+    physicsRaycastFlipForwardVec: true
+    physicsRaycastCamera: true
+    physicsRaycastTapEvent: true
+    physicsRaycastTouchStartEvent: true
+    physicsRaycastTouchMoveEvent: true
+    physicsRaycastTouchEndEvent: true
+    physicsRaycastProbeType: true
+    physicsRaycastPhysicsWorld: true
+    physicsRaycastMaxDistance: true
+    physicsRaycastDebugDrawEnabled: true
+    physicsRaycastOverlapStatic: true
+    physicsRaycastOverlapDynamic: true
+    physicsRaycastOverlapIntangible: true
+    physicsRaycastFilterObjectsBy: true
+    physicsRaycastAllowedObjects: true
+    physicsRaycastNameMatchType: true
+    physicsRaycastAllowedNames: true
+    triggerLimitType: true
+    triggerInterval: true
+    triggerDelay: true
+    animateImageAnimatedTexture: true
+    animateImageVisualObject: true
+    animateImageAction: true
+    animateImageLoop: true
+    animateImagePauseFrame: true
+    animateImageAdvanced: true
+    animateImagePingPong: true
+    animateImageReverse: true
+    animateMeshAnimationMixer: true
+    animateMeshLayerName: true
+    animateMeshAction: true
+    animateMeshWeight: true
+    animateMeshLoop: true
+    animateMeshStopOtherLayers: true
+    playSoundAction: true
+    playSoundAudioTrack: true
+    playSoundAudioComponent: true
+    playSoundLoop: true
+    playSoundVolume: true
+    playSoundFadeOut: true
+    playVideoVideoTexture: true
+    playVideoVisualObject: true
+    playVideoAction: true
+    playVideoLoop: true
+    setEnabledEntityType: true
+    setEnabledTargetComponent: true
+    setEnabledAction: true
+    setParentTarget: true
+    setParentNewParent: true
+    setParentPreserveWorldTransform: true
+    setColorVisual: true
+    setColorMaterial: true
+    setColorColor: true
+    setTextureTarget: true
+    setTextureNewTexture: true
+    setTextComponentType: true
+    setTextTextComponent: true
+    setTextText3DComponent: true
+    setTextText: true
+    runTweenTargetObject: true
+    runTweenTweenName: true
+    runTweenAction: true
+    setPositionObjectToMove: true
+    setPositionPosition: true
+    setPositionLocalSpace: true
+    setRotationObjectToRotate: true
+    setRotationRotationAngle: true
+    setRotationLocalSpace: true
+    setScaleObjectToScale: true
+    setScaleScale: true
+    setScaleLocalSpace: true
+    setScreenPositionScreenTransform: true
+    setScreenPositionPositionType: true
+    setScreenPositionBasicPosition: true
+    setScreenPositionAnchorsCenter: true
+    setScreenPositionOffsetsCenter: true
+    setScreenRotationScreenTransform: true
+    setScreenRotationAngle: true
+    setScreenSizeScreenTransform: true
+    setScreenSizeSizeType: true
+    setScreenSizeBasicScale: true
+    setScreenSizeAnchorsSize: true
+    setScreenSizeOffsetsSize: true
+    setBlendshapesV2MeshVisual: true
+    setBlendshapesV2Name: true
+    setBlendshapesV2Weight: true
+    setMaterialParameterTargetType: true
+    setMaterialParameterMaterial: true
+    setMaterialParameterMeshVisual: true
+    setMaterialParameterVFXAsset: true
+    setMaterialParameterVFXComponent: true
+    setMaterialParameterParameterName: true
+    setMaterialParameterValueType: true
+    setMaterialParameterBoolValue: true
+    setMaterialParameterIntValue: true
+    setMaterialParameterFloatValue: true
+    setMaterialParameterColorRGBValue: true
+    setMaterialParameterColorRGBAValue: true
+    setMaterialParameterTextureValue: true
+    setMaterialParameterVec2Value: true
+    setMaterialParameterVec3Value: true
+    setMaterialParameterVec4Value: true
+    setTouchBlockingTargetType: true
+    setTouchBlockingGlobalTouchBlocking: true
+    setTouchBlockingTouchComponent: true
+    setTouchBlockingTouchTypeTouch: true
+    setTouchBlockingTouchTypeTap: true
+    setTouchBlockingTouchTypeDoubleTap: true
+    setTouchBlockingTouchTypeScale: true
+    setTouchBlockingTouchTypePan: true
+    setTouchBlockingTouchTypeSwipe: true
+    showHintHint: true
+    showHintDuration: true
+    runMLMlComponent: true
+    runMLAction: true
+    runMLSync: true
+    runMLRecurring: true
+    runMLStartTiming: true
+    runMLEndTiming: true
+    instantiatePrefabPrefab: true
+    instantiatePrefabParent: true
+    printMessageText: true
+    callScriptAPITargetType: true
+    callScriptAPISceneObject: true
+    callScriptAPIComponent: true
+    callScriptAPIScriptComponent: true
+    callScriptAPICallType: true
+    callScriptAPIFunctionName: true
+    callScriptAPIPropertyName: true
+    callScriptAPI_arg1ValueType: true
+    callScriptAPI_arg1BoolValue: true
+    callScriptAPI_arg1IntValue: true
+    callScriptAPI_arg1FloatValue: true
+    callScriptAPI_arg1StringValue: true
+    callScriptAPI_arg1ColorRGBValue: true
+    callScriptAPI_arg1ColorRGBAValue: true
+    callScriptAPI_arg1Vec2Value: true
+    callScriptAPI_arg1Vec3Value: true
+    callScriptAPI_arg1Vec4Value: true
+    callScriptAPI_arg1QuatValue: true
+    callScriptAPI_arg1SceneObjectValue: true
+    callScriptAPI_arg1AssetValue: true
+    callScriptAPI_arg1TextureValue: true
+    callScriptAPI_arg1ComponentValue: true
+    callScriptAPI_arg1BoolArrayValue: true
+    callScriptAPI_arg1IntArrayValue: true
+    callScriptAPI_arg1FloatArrayValue: true
+    callScriptAPI_arg1StringArrayValue: true
+    callScriptAPI_arg1Vec2ArrayValue: true
+    callScriptAPI_arg1Vec3ArrayValue: true
+    callScriptAPI_arg1Vec4ArrayValue: true
+    callScriptAPI_arg1QuatArrayValue: true
+    callScriptAPI_arg1SceneObjectArrayValue: true
+    callScriptAPI_arg1AssetArrayValue: true
+    callScriptAPI_arg1TextureArrayValue: true
+    callScriptAPI_arg1ComponentArrayValue: true
+    callScriptAPI_arg2ValueType: true
+    callScriptAPI_arg2BoolValue: true
+    callScriptAPI_arg2IntValue: true
+    callScriptAPI_arg2FloatValue: true
+    callScriptAPI_arg2StringValue: true
+    callScriptAPI_arg2ColorRGBValue: true
+    callScriptAPI_arg2ColorRGBAValue: true
+    callScriptAPI_arg2Vec2Value: true
+    callScriptAPI_arg2Vec3Value: true
+    callScriptAPI_arg2Vec4Value: true
+    callScriptAPI_arg2QuatValue: true
+    callScriptAPI_arg2SceneObjectValue: true
+    callScriptAPI_arg2AssetValue: true
+    callScriptAPI_arg2TextureValue: true
+    callScriptAPI_arg2ComponentValue: true
+    callScriptAPI_arg2BoolArrayValue: true
+    callScriptAPI_arg2IntArrayValue: true
+    callScriptAPI_arg2FloatArrayValue: true
+    callScriptAPI_arg2StringArrayValue: true
+    callScriptAPI_arg2Vec2ArrayValue: true
+    callScriptAPI_arg2Vec3ArrayValue: true
+    callScriptAPI_arg2Vec4ArrayValue: true
+    callScriptAPI_arg2QuatArrayValue: true
+    callScriptAPI_arg2SceneObjectArrayValue: true
+    callScriptAPI_arg2AssetArrayValue: true
+    callScriptAPI_arg2TextureArrayValue: true
+    callScriptAPI_arg2ComponentArrayValue: true
+    callScriptAPI_valueValueType: true
+    callScriptAPI_valueBoolValue: true
+    callScriptAPI_valueIntValue: true
+    callScriptAPI_valueFloatValue: true
+    callScriptAPI_valueStringValue: true
+    callScriptAPI_valueColorRGBValue: true
+    callScriptAPI_valueColorRGBAValue: true
+    callScriptAPI_valueVec2Value: true
+    callScriptAPI_valueVec3Value: true
+    callScriptAPI_valueVec4Value: true
+    callScriptAPI_valueQuatValue: true
+    callScriptAPI_valueSceneObjectValue: true
+    callScriptAPI_valueAssetValue: true
+    callScriptAPI_valueTextureValue: true
+    callScriptAPI_valueComponentValue: true
+    callScriptAPI_valueBoolArrayValue: true
+    callScriptAPI_valueIntArrayValue: true
+    callScriptAPI_valueFloatArrayValue: true
+    callScriptAPI_valueStringArrayValue: true
+    callScriptAPI_valueVec2ArrayValue: true
+    callScriptAPI_valueVec3ArrayValue: true
+    callScriptAPI_valueVec4ArrayValue: true
+    callScriptAPI_valueQuatArrayValue: true
+    callScriptAPI_valueSceneObjectArrayValue: true
+    callScriptAPI_valueAssetArrayValue: true
+    callScriptAPI_valueTextureArrayValue: true
+    callScriptAPI_valueComponentArrayValue: true
+    sendCustomTriggerTriggerName: true
+    sendCustomTriggerTriggerNames: true
+    sendCustomTriggerUseList: true
+    sendCustomTriggerLoopAfterEnd: true
+    physicsApplyForceBody: true
+    physicsApplyForceForceType: true
+    physicsApplyForceMode: true
+    physicsApplyForceForceValue: true
+    physicsApplyForceSpace: true
+    physicsApplyForceObjectSpace: true
+    sceneManagerLoadSceneSceneName: true
+    sceneManagerLoadSceneLoadType: true
+    sceneManagerLoadSceneLoadAdditively: true
+    sceneManagerLoadSceneLoadEnabled: true
+    sceneManagerLoadSceneCustomizeSceneRoot: true
+    sceneManagerLoadSceneSceneRootObject: true
+    sceneManagerLoadSceneUseLoadingScene: true
+    sceneManagerLoadSceneLoadingSceneName: true
+    sceneManagerLoadSceneCallbackOnProgress: true
+    sceneManagerLoadSceneOnProgressCallbackScriptComponent: true
+    sceneManagerLoadSceneOnProgressCallbackFunctionName: true
+    sceneManagerLoadSceneCallbackOnComplete: true
+    sceneManagerLoadSceneOnCompleteCallbackScriptComponent: true
+    sceneManagerLoadSceneOnCompleteCallbackFunctionName: true
+    setBlendshapesBlendshapes: true
+    setBlendshapesName: true
+    setBlendshapesWeight: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      triggeringEventType: onCustomTrigger
+      touchEventEventType: TapEvent
+      touchEventTouchTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      faceEventEventType: MouthOpenedEvent
+      faceEventFaceIndex: 0
+      onEnabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      onDisabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      interactionEventEventType: onTap
+      interactionEventTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      animType: Animated Texture
+      animationEndAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      animationEndImageVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      animationEndAnimMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animationEndAnimLayerName: ""
+      tweenEndTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenEndTweenName: ""
+      lookingAtLookingObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookingAtLookTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookingAtFlipForwardVec: true
+      lookingAtCompareType: -1
+      lookingAtAngle: !<float> 10.000000
+      lookingAtAllowRepeat: false
+      boundsCheckObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boundsCheckBoundaryMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      boundsCheckTriggerOptions: On Enter
+      distanceCheckObjectA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distanceCheckObjectB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distanceCheckCompareType: -1
+      distanceCheckDistance: !<float> 1.000000
+      distanceCheckAllowRepeat: false
+      distanceCheckFlattenZForScreenTransforms: true
+      markerTrackingEventEventType: Marker Found
+      markerTrackingEventMarkerTracking: !<reference.MarkerTrackingComponent> 00000000-0000-0000-0000-000000000000
+      objectTrackingEventEventType: Object Found
+      objectTrackingEventObjectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectTrackingEventDescStartKey: ""
+      objectTrackingEventDescEndKey: ""
+      objectTracking3DEventObjectTracking3D: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      objectTracking3DEventEventType: Tracking Started
+      landmarkerEventEventType: Location Found
+      landmarkerEventLocationTracking: !<reference.DeviceLocationTrackingComponent> 00000000-0000-0000-0000-000000000000
+      machineLearningEventEventType: Loading Finished
+      machineLearningEventMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      recordingEventEventType: SnapRecordStartEvent
+      onCustomTriggerTriggerName: back_camera
+      onCustomTriggerTriggerNames: !<string[]>
+        []
+      onCustomTriggerUseList: false
+      physicsColliderEventCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      physicsColliderEventCollisionType: Collision
+      physicsColliderEventEventType: On Enter
+      physicsColliderEventOverlapStatic: true
+      physicsColliderEventOverlapDynamic: true
+      physicsColliderEventOverlapIntangible: true
+      physicsColliderEventFilterObjectsBy: None
+      physicsColliderEventAllowedObjects: !<reference.ColliderComponent[]>
+        []
+      physicsColliderEventNameMatchType: Equals
+      physicsColliderEventAllowedNames: !<string[]>
+        []
+      physicsRaycastRaycastSource: touch
+      physicsRaycastSourceObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      physicsRaycastFlipForwardVec: false
+      physicsRaycastCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      physicsRaycastTapEvent: true
+      physicsRaycastTouchStartEvent: false
+      physicsRaycastTouchMoveEvent: false
+      physicsRaycastTouchEndEvent: false
+      physicsRaycastProbeType: global
+      physicsRaycastPhysicsWorld: !<reference.WorldComponent> 00000000-0000-0000-0000-000000000000
+      physicsRaycastMaxDistance: !<float> 10000.000000
+      physicsRaycastDebugDrawEnabled: false
+      physicsRaycastOverlapStatic: true
+      physicsRaycastOverlapDynamic: true
+      physicsRaycastOverlapIntangible: true
+      physicsRaycastFilterObjectsBy: None
+      physicsRaycastAllowedObjects: !<reference.ColliderComponent[]>
+        []
+      physicsRaycastNameMatchType: Equals
+      physicsRaycastAllowedNames: !<string[]>
+        []
+      triggerLimitType: Always
+      triggerInterval: !<float> 1.000000
+      triggerDelay: !<float> 0.000000
+      responseType: setEnabled
+      animateImageAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      animateImageVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      animateImageAction: Play or Resume
+      animateImageLoop: false
+      animateImagePauseFrame: 0
+      animateImageAdvanced: false
+      animateImagePingPong: false
+      animateImageReverse: false
+      animateMeshAnimationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animateMeshLayerName: ""
+      animateMeshAction: Play or Resume
+      animateMeshWeight: !<float> 1.000000
+      animateMeshLoop: false
+      animateMeshStopOtherLayers: true
+      playSoundAction: Play
+      playSoundAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      playSoundAudioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      playSoundLoop: false
+      playSoundVolume: !<float> 1.000000
+      playSoundFadeOut: false
+      playVideoVideoTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      playVideoVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      playVideoAction: Play or Resume
+      playVideoLoop: false
+      setEnabledEntityType: SceneObject
+      setEnabledTarget: !<reference.SceneObject> 3d9952fe-b5ea-4346-9833-9936edcedbf3
+      setEnabledTargetComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      setEnabledAction: Enable
+      setParentTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setParentNewParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setParentPreserveWorldTransform: false
+      setColorVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setColorMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      setColorColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      setTextureTarget: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setTextureNewTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      setTextComponentType: Text
+      setTextTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      setTextText3DComponent: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      setTextText: ""
+      runTweenTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      runTweenTweenName: ""
+      runTweenAction: Start
+      setPositionObjectToMove: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setPositionPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setPositionLocalSpace: true
+      setRotationObjectToRotate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setRotationRotationAngle: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setRotationLocalSpace: true
+      setScaleObjectToScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setScaleScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScaleLocalSpace: true
+      setScreenPositionScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenPositionPositionType: Basic Position
+      setScreenPositionBasicPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScreenPositionAnchorsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenPositionOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenRotationScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenRotationAngle: !<float> 0.000000
+      setScreenSizeScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenSizeSizeType: Basic Scale
+      setScreenSizeBasicScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScreenSizeAnchorsSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenSizeOffsetsSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      setBlendshapesV2MeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      setBlendshapesV2Name: ""
+      setBlendshapesV2Weight: !<float> 0.000000
+      setMaterialParameterTargetType: Material
+      setMaterialParameterMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVFXAsset: !<reference.VFXAsset> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVFXComponent: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterParameterName: ""
+      setMaterialParameterValueType: float
+      setMaterialParameterBoolValue: false
+      setMaterialParameterIntValue: 0
+      setMaterialParameterFloatValue: !<float> 0.000000
+      setMaterialParameterColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setMaterialParameterColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      setMaterialParameterTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      setMaterialParameterVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setMaterialParameterVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      setTouchBlockingTargetType: Global Touches
+      setTouchBlockingGlobalTouchBlocking: true
+      setTouchBlockingTouchComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      setTouchBlockingTouchTypeTouch: false
+      setTouchBlockingTouchTypeTap: false
+      setTouchBlockingTouchTypeDoubleTap: false
+      setTouchBlockingTouchTypeScale: false
+      setTouchBlockingTouchTypePan: false
+      setTouchBlockingTouchTypeSwipe: false
+      showHintHint: 0
+      showHintDuration: !<float> 2.000000
+      runMLMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      runMLAction: Run Immediate
+      runMLSync: false
+      runMLRecurring: false
+      runMLStartTiming: 2
+      runMLEndTiming: 4
+      instantiatePrefabPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      instantiatePrefabParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      destroyObjectObject: !<reference.SceneObject> 3d9952fe-b5ea-4346-9833-9936edcedbf3
+      printMessageText: ""
+      callScriptAPITargetType: Component
+      callScriptAPISceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPIComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPIScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      callScriptAPICallType: 0
+      callScriptAPIFunctionName: ""
+      callScriptAPIPropertyName: ""
+      callScriptAPI_arg1ValueType: None
+      callScriptAPI_arg1BoolValue: false
+      callScriptAPI_arg1IntValue: 0
+      callScriptAPI_arg1FloatValue: !<float> 0.000000
+      callScriptAPI_arg1StringValue: ""
+      callScriptAPI_arg1ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg1ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg1Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_arg1Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg1Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg1QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_arg1SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1BoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_arg1IntArrayValue: !<int[]>
+        []
+      callScriptAPI_arg1FloatArrayValue: !<float[]>
+        []
+      callScriptAPI_arg1StringArrayValue: !<string[]>
+        []
+      callScriptAPI_arg1Vec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_arg1Vec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_arg1Vec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_arg1QuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_arg1SceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_arg1AssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_arg1TextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_arg1ComponentArrayValue: !<reference.Component[]>
+        []
+      callScriptAPI_arg2ValueType: None
+      callScriptAPI_arg2BoolValue: false
+      callScriptAPI_arg2IntValue: 0
+      callScriptAPI_arg2FloatValue: !<float> 0.000000
+      callScriptAPI_arg2StringValue: ""
+      callScriptAPI_arg2ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg2ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg2Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_arg2Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg2Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg2QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_arg2SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2BoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_arg2IntArrayValue: !<int[]>
+        []
+      callScriptAPI_arg2FloatArrayValue: !<float[]>
+        []
+      callScriptAPI_arg2StringArrayValue: !<string[]>
+        []
+      callScriptAPI_arg2Vec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_arg2Vec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_arg2Vec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_arg2QuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_arg2SceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_arg2AssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_arg2TextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_arg2ComponentArrayValue: !<reference.Component[]>
+        []
+      callScriptAPI_valueValueType: float
+      callScriptAPI_valueBoolValue: false
+      callScriptAPI_valueIntValue: 0
+      callScriptAPI_valueFloatValue: !<float> 0.000000
+      callScriptAPI_valueStringValue: ""
+      callScriptAPI_valueColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_valueColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_valueVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_valueVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_valueVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_valueQuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_valueSceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueAssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueBoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_valueIntArrayValue: !<int[]>
+        []
+      callScriptAPI_valueFloatArrayValue: !<float[]>
+        []
+      callScriptAPI_valueStringArrayValue: !<string[]>
+        []
+      callScriptAPI_valueVec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_valueVec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_valueVec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_valueQuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_valueSceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_valueAssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_valueTextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_valueComponentArrayValue: !<reference.Component[]>
+        []
+      sendCustomTriggerTriggerName: ""
+      sendCustomTriggerTriggerNames: !<string[]>
+        []
+      sendCustomTriggerUseList: false
+      sendCustomTriggerLoopAfterEnd: true
+      physicsApplyForceBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      physicsApplyForceForceType: Position
+      physicsApplyForceMode: Impulse
+      physicsApplyForceForceValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      physicsApplyForceSpace: World
+      physicsApplyForceObjectSpace: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneSceneName: ""
+      sceneManagerLoadSceneLoadType: Asynchronous
+      sceneManagerLoadSceneLoadAdditively: true
+      sceneManagerLoadSceneLoadEnabled: true
+      sceneManagerLoadSceneCustomizeSceneRoot: false
+      sceneManagerLoadSceneSceneRootObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneUseLoadingScene: false
+      sceneManagerLoadSceneLoadingSceneName: ""
+      sceneManagerLoadSceneCallbackOnProgress: false
+      sceneManagerLoadSceneOnProgressCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneOnProgressCallbackFunctionName: ""
+      sceneManagerLoadSceneCallbackOnComplete: false
+      sceneManagerLoadSceneOnCompleteCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneOnCompleteCallbackFunctionName: ""
+      setBlendshapesBlendshapes: !<reference.BlendShapes> 00000000-0000-0000-0000-000000000000
+      setBlendshapesName: ""
+      setBlendshapesWeight: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/2c20bdf2-e243-443e-af05-270ad4de2527>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e9abeadd-c870-4033-adce-123b73b14457
+    - !<own> 4fc570dc-692f-441f-9aa9-6cdd7e6724e9
+- !<SceneObject/2dbda4d0-e0fb-4c8d-8612-48dc36eaaf1f>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a9a3e230-91df-4dd4-bab4-0246ad26f98b
+    - !<own> ba24c446-97b3-49ff-acdf-d298588a4e8a
+- !<BodyComponent/2f067acf-6ace-4ee3-8993-b530abe2c1a6>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/335a390e-0e85-4c82-93bc-b76bab9ffc42>
+  PrefabRemaps:
+    []
+  Name: Layer
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 90fe03e3-4ca5-4540-b74c-e91e8a20a113
+    - !<own> a0b33cc0-45d5-4215-a6f9-6c0a3d2d171f
+    - !<own> a53a7912-1fd8-4f22-af28-dc8f321062f3
+  Components:
+    []
+- !<BodyComponent/35f5bdd3-49d7-4d44-8d12-583a72f528f2>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/391d345a-3eb9-4120-ba02-9c7378e81813>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3b6035f0-b6d9-4b09-a4c2-e2e442cefccb>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a2b56346-31e0-4927-a5b4-0d59ec208450
+    - !<own> afdb54d4-7d92-4fc9-a36a-3d33ad580481
+- !<RenderMeshVisual/3c24ae34-e393-487e-867e-7f8c252ca21c>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3d9952fe-b5ea-4346-9833-9936edcedbf3>
+  PrefabRemaps:
+    []
+  Name: Jenga
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -30.000000, z: -30.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.750000, y: 0.750000, z: 0.750000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7af918de-5799-410a-8a3b-ec72483d371e
+    - !<own> 335a390e-0e85-4c82-93bc-b76bab9ffc42
+    - !<own> a610860b-ccae-4d2b-8d31-80d0233049a2
+    - !<own> 8b92043a-bd23-4c1b-bb62-876236f48dae
+    - !<own> 82815cb6-b897-41fc-8293-35cdec58c069
+    - !<own> 0421139d-de90-4dea-b320-719bb6d3f6da
+    - !<own> 0f4ea4eb-5d5c-4f5e-9362-40542b6861fe
+    - !<own> 8ee639bb-a404-406f-aa7a-77194a3753ab
+    - !<own> d9f9a3aa-dbd8-419a-a191-2cb42396abb7
+    - !<own> e94450fd-77bf-4513-a3ba-07a224b04357
+    - !<own> e2f4a9a1-8a97-4a81-9e13-7924a4af64e5
+    - !<own> fb08fe9d-871d-491f-9e5f-f5c3246b8c29
+    - !<own> 86cbf082-fa09-4ce3-ad9f-51dd71ecef2a
+    - !<own> e8b755fc-99aa-4a76-9902-2ee7b5cdd701
+  Components:
+    - !<own> 06b2e548-326d-4ee7-85ad-80e298df7f14
+    - !<own> 288ad0c7-790a-46cd-8395-fabb083b40eb
+    - !<own> 54d558e3-38a7-4692-aeff-e8ffbc111bb3
+- !<BodyComponent/3e223c92-68e6-407b-88e7-4c67b4e52a6e>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/3e2f8269-2d73-49dd-81c1-629667e43b79>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/3f395ce1-b3e1-4c80-8d0f-1950c1165b55>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/3f7dbf33-3977-41d3-bf9a-eb5ad1308a18>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/42581bb0-fde3-48fb-b1f6-69e888a0dc54>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/4258e83f-b14f-4798-a7ac-5759730b122a>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/4438b107-d1b4-440f-8f85-e34d310f9c54>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> baa74030-8c29-414c-9e55-b03848ce5471
+    - !<own> 70c6f608-23b9-46e6-ae0f-962e9c743ef2
+- !<RenderMeshVisual/45354c2c-d123-415c-bb70-50ac5d15d1c0>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4fc570dc-692f-441f-9aa9-6cdd7e6724e9>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/5454c2cd-1263-4145-99b0-1fa32af8fd58>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<ScriptComponent/54d558e3-38a7-4692-aeff-e8ffbc111bb3>
+  PrefabRemaps:
+    []
+  Name: Behavior
+  Enabled: true
+  ScriptAsset: !<reference> 45454e44-c07a-464e-a6f8-a82a6f410224
+  ScriptInputsDefault:
+    touchEventEventType: true
+    touchEventTouchTarget: true
+    faceEventEventType: true
+    faceEventFaceIndex: true
+    onEnabledObject: true
+    onDisabledObject: true
+    interactionEventEventType: true
+    interactionEventTarget: true
+    animType: true
+    animationEndAnimatedTexture: true
+    animationEndImageVisual: true
+    animationEndAnimMixer: true
+    animationEndAnimLayerName: true
+    tweenEndTargetObject: true
+    tweenEndTweenName: true
+    lookingAtLookingObject: true
+    lookingAtLookTarget: true
+    lookingAtFlipForwardVec: true
+    lookingAtCompareType: true
+    lookingAtAngle: true
+    lookingAtAllowRepeat: true
+    boundsCheckObject: true
+    boundsCheckBoundaryMeshVisual: true
+    boundsCheckTriggerOptions: true
+    distanceCheckObjectA: true
+    distanceCheckObjectB: true
+    distanceCheckCompareType: true
+    distanceCheckDistance: true
+    distanceCheckAllowRepeat: true
+    distanceCheckFlattenZForScreenTransforms: true
+    markerTrackingEventEventType: true
+    markerTrackingEventMarkerTracking: true
+    objectTrackingEventEventType: true
+    objectTrackingEventObjectTracking: true
+    objectTrackingEventDescStartKey: true
+    objectTrackingEventDescEndKey: true
+    objectTracking3DEventObjectTracking3D: true
+    objectTracking3DEventEventType: true
+    landmarkerEventEventType: true
+    landmarkerEventLocationTracking: true
+    machineLearningEventEventType: true
+    machineLearningEventMlComponent: true
+    recordingEventEventType: true
+    onCustomTriggerTriggerNames: true
+    onCustomTriggerUseList: true
+    physicsColliderEventCollider: true
+    physicsColliderEventCollisionType: true
+    physicsColliderEventEventType: true
+    physicsColliderEventOverlapStatic: true
+    physicsColliderEventOverlapDynamic: true
+    physicsColliderEventOverlapIntangible: true
+    physicsColliderEventFilterObjectsBy: true
+    physicsColliderEventAllowedObjects: true
+    physicsColliderEventNameMatchType: true
+    physicsColliderEventAllowedNames: true
+    physicsRaycastRaycastSource: true
+    physicsRaycastSourceObject: true
+    physicsRaycastFlipForwardVec: true
+    physicsRaycastCamera: true
+    physicsRaycastTapEvent: true
+    physicsRaycastTouchStartEvent: true
+    physicsRaycastTouchMoveEvent: true
+    physicsRaycastTouchEndEvent: true
+    physicsRaycastProbeType: true
+    physicsRaycastPhysicsWorld: true
+    physicsRaycastMaxDistance: true
+    physicsRaycastDebugDrawEnabled: true
+    physicsRaycastOverlapStatic: true
+    physicsRaycastOverlapDynamic: true
+    physicsRaycastOverlapIntangible: true
+    physicsRaycastFilterObjectsBy: true
+    physicsRaycastAllowedObjects: true
+    physicsRaycastNameMatchType: true
+    physicsRaycastAllowedNames: true
+    triggerLimitType: true
+    triggerInterval: true
+    triggerDelay: true
+    animateImageAnimatedTexture: true
+    animateImageVisualObject: true
+    animateImageAction: true
+    animateImageLoop: true
+    animateImagePauseFrame: true
+    animateImageAdvanced: true
+    animateImagePingPong: true
+    animateImageReverse: true
+    animateMeshAnimationMixer: true
+    animateMeshLayerName: true
+    animateMeshAction: true
+    animateMeshWeight: true
+    animateMeshLoop: true
+    animateMeshStopOtherLayers: true
+    playSoundAction: true
+    playSoundAudioTrack: true
+    playSoundAudioComponent: true
+    playSoundLoop: true
+    playSoundVolume: true
+    playSoundFadeOut: true
+    playVideoVideoTexture: true
+    playVideoVisualObject: true
+    playVideoAction: true
+    playVideoLoop: true
+    setEnabledEntityType: true
+    setEnabledTarget: true
+    setEnabledTargetComponent: true
+    setEnabledAction: true
+    setParentTarget: true
+    setParentNewParent: true
+    setParentPreserveWorldTransform: true
+    setColorVisual: true
+    setColorMaterial: true
+    setColorColor: true
+    setTextureTarget: true
+    setTextureNewTexture: true
+    setTextComponentType: true
+    setTextTextComponent: true
+    setTextText3DComponent: true
+    setTextText: true
+    runTweenTargetObject: true
+    runTweenTweenName: true
+    runTweenAction: true
+    setPositionObjectToMove: true
+    setPositionPosition: true
+    setPositionLocalSpace: true
+    setRotationObjectToRotate: true
+    setRotationRotationAngle: true
+    setRotationLocalSpace: true
+    setScaleObjectToScale: true
+    setScaleScale: true
+    setScaleLocalSpace: true
+    setScreenPositionScreenTransform: true
+    setScreenPositionPositionType: true
+    setScreenPositionBasicPosition: true
+    setScreenPositionAnchorsCenter: true
+    setScreenPositionOffsetsCenter: true
+    setScreenRotationScreenTransform: true
+    setScreenRotationAngle: true
+    setScreenSizeScreenTransform: true
+    setScreenSizeSizeType: true
+    setScreenSizeBasicScale: true
+    setScreenSizeAnchorsSize: true
+    setScreenSizeOffsetsSize: true
+    setBlendshapesV2MeshVisual: true
+    setBlendshapesV2Name: true
+    setBlendshapesV2Weight: true
+    setMaterialParameterTargetType: true
+    setMaterialParameterMaterial: true
+    setMaterialParameterMeshVisual: true
+    setMaterialParameterVFXAsset: true
+    setMaterialParameterVFXComponent: true
+    setMaterialParameterParameterName: true
+    setMaterialParameterValueType: true
+    setMaterialParameterBoolValue: true
+    setMaterialParameterIntValue: true
+    setMaterialParameterFloatValue: true
+    setMaterialParameterColorRGBValue: true
+    setMaterialParameterColorRGBAValue: true
+    setMaterialParameterTextureValue: true
+    setMaterialParameterVec2Value: true
+    setMaterialParameterVec3Value: true
+    setMaterialParameterVec4Value: true
+    setTouchBlockingTargetType: true
+    setTouchBlockingGlobalTouchBlocking: true
+    setTouchBlockingTouchComponent: true
+    setTouchBlockingTouchTypeTouch: true
+    setTouchBlockingTouchTypeTap: true
+    setTouchBlockingTouchTypeDoubleTap: true
+    setTouchBlockingTouchTypeScale: true
+    setTouchBlockingTouchTypePan: true
+    setTouchBlockingTouchTypeSwipe: true
+    showHintHint: true
+    showHintDuration: true
+    runMLMlComponent: true
+    runMLAction: true
+    runMLSync: true
+    runMLRecurring: true
+    runMLStartTiming: true
+    runMLEndTiming: true
+    instantiatePrefabPrefab: true
+    instantiatePrefabParent: true
+    printMessageText: true
+    callScriptAPITargetType: true
+    callScriptAPISceneObject: true
+    callScriptAPIComponent: true
+    callScriptAPIScriptComponent: true
+    callScriptAPICallType: true
+    callScriptAPIFunctionName: true
+    callScriptAPIPropertyName: true
+    callScriptAPI_arg1ValueType: true
+    callScriptAPI_arg1BoolValue: true
+    callScriptAPI_arg1IntValue: true
+    callScriptAPI_arg1FloatValue: true
+    callScriptAPI_arg1StringValue: true
+    callScriptAPI_arg1ColorRGBValue: true
+    callScriptAPI_arg1ColorRGBAValue: true
+    callScriptAPI_arg1Vec2Value: true
+    callScriptAPI_arg1Vec3Value: true
+    callScriptAPI_arg1Vec4Value: true
+    callScriptAPI_arg1QuatValue: true
+    callScriptAPI_arg1SceneObjectValue: true
+    callScriptAPI_arg1AssetValue: true
+    callScriptAPI_arg1TextureValue: true
+    callScriptAPI_arg1ComponentValue: true
+    callScriptAPI_arg1BoolArrayValue: true
+    callScriptAPI_arg1IntArrayValue: true
+    callScriptAPI_arg1FloatArrayValue: true
+    callScriptAPI_arg1StringArrayValue: true
+    callScriptAPI_arg1Vec2ArrayValue: true
+    callScriptAPI_arg1Vec3ArrayValue: true
+    callScriptAPI_arg1Vec4ArrayValue: true
+    callScriptAPI_arg1QuatArrayValue: true
+    callScriptAPI_arg1SceneObjectArrayValue: true
+    callScriptAPI_arg1AssetArrayValue: true
+    callScriptAPI_arg1TextureArrayValue: true
+    callScriptAPI_arg1ComponentArrayValue: true
+    callScriptAPI_arg2ValueType: true
+    callScriptAPI_arg2BoolValue: true
+    callScriptAPI_arg2IntValue: true
+    callScriptAPI_arg2FloatValue: true
+    callScriptAPI_arg2StringValue: true
+    callScriptAPI_arg2ColorRGBValue: true
+    callScriptAPI_arg2ColorRGBAValue: true
+    callScriptAPI_arg2Vec2Value: true
+    callScriptAPI_arg2Vec3Value: true
+    callScriptAPI_arg2Vec4Value: true
+    callScriptAPI_arg2QuatValue: true
+    callScriptAPI_arg2SceneObjectValue: true
+    callScriptAPI_arg2AssetValue: true
+    callScriptAPI_arg2TextureValue: true
+    callScriptAPI_arg2ComponentValue: true
+    callScriptAPI_arg2BoolArrayValue: true
+    callScriptAPI_arg2IntArrayValue: true
+    callScriptAPI_arg2FloatArrayValue: true
+    callScriptAPI_arg2StringArrayValue: true
+    callScriptAPI_arg2Vec2ArrayValue: true
+    callScriptAPI_arg2Vec3ArrayValue: true
+    callScriptAPI_arg2Vec4ArrayValue: true
+    callScriptAPI_arg2QuatArrayValue: true
+    callScriptAPI_arg2SceneObjectArrayValue: true
+    callScriptAPI_arg2AssetArrayValue: true
+    callScriptAPI_arg2TextureArrayValue: true
+    callScriptAPI_arg2ComponentArrayValue: true
+    callScriptAPI_valueValueType: true
+    callScriptAPI_valueBoolValue: true
+    callScriptAPI_valueIntValue: true
+    callScriptAPI_valueFloatValue: true
+    callScriptAPI_valueStringValue: true
+    callScriptAPI_valueColorRGBValue: true
+    callScriptAPI_valueColorRGBAValue: true
+    callScriptAPI_valueVec2Value: true
+    callScriptAPI_valueVec3Value: true
+    callScriptAPI_valueVec4Value: true
+    callScriptAPI_valueQuatValue: true
+    callScriptAPI_valueSceneObjectValue: true
+    callScriptAPI_valueAssetValue: true
+    callScriptAPI_valueTextureValue: true
+    callScriptAPI_valueComponentValue: true
+    callScriptAPI_valueBoolArrayValue: true
+    callScriptAPI_valueIntArrayValue: true
+    callScriptAPI_valueFloatArrayValue: true
+    callScriptAPI_valueStringArrayValue: true
+    callScriptAPI_valueVec2ArrayValue: true
+    callScriptAPI_valueVec3ArrayValue: true
+    callScriptAPI_valueVec4ArrayValue: true
+    callScriptAPI_valueQuatArrayValue: true
+    callScriptAPI_valueSceneObjectArrayValue: true
+    callScriptAPI_valueAssetArrayValue: true
+    callScriptAPI_valueTextureArrayValue: true
+    callScriptAPI_valueComponentArrayValue: true
+    sendCustomTriggerTriggerName: true
+    sendCustomTriggerTriggerNames: true
+    sendCustomTriggerUseList: true
+    sendCustomTriggerLoopAfterEnd: true
+    physicsApplyForceBody: true
+    physicsApplyForceForceType: true
+    physicsApplyForceMode: true
+    physicsApplyForceForceValue: true
+    physicsApplyForceSpace: true
+    physicsApplyForceObjectSpace: true
+    sceneManagerLoadSceneSceneName: true
+    sceneManagerLoadSceneLoadType: true
+    sceneManagerLoadSceneLoadAdditively: true
+    sceneManagerLoadSceneLoadEnabled: true
+    sceneManagerLoadSceneCustomizeSceneRoot: true
+    sceneManagerLoadSceneSceneRootObject: true
+    sceneManagerLoadSceneUseLoadingScene: true
+    sceneManagerLoadSceneLoadingSceneName: true
+    sceneManagerLoadSceneCallbackOnProgress: true
+    sceneManagerLoadSceneOnProgressCallbackScriptComponent: true
+    sceneManagerLoadSceneOnProgressCallbackFunctionName: true
+    sceneManagerLoadSceneCallbackOnComplete: true
+    sceneManagerLoadSceneOnCompleteCallbackScriptComponent: true
+    sceneManagerLoadSceneOnCompleteCallbackFunctionName: true
+    setBlendshapesBlendshapes: true
+    setBlendshapesName: true
+    setBlendshapesWeight: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      triggeringEventType: onCustomTrigger
+      touchEventEventType: TapEvent
+      touchEventTouchTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      faceEventEventType: MouthOpenedEvent
+      faceEventFaceIndex: 0
+      onEnabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      onDisabledObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      interactionEventEventType: onTap
+      interactionEventTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      animType: Animated Texture
+      animationEndAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      animationEndImageVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      animationEndAnimMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animationEndAnimLayerName: ""
+      tweenEndTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenEndTweenName: ""
+      lookingAtLookingObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookingAtLookTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookingAtFlipForwardVec: true
+      lookingAtCompareType: -1
+      lookingAtAngle: !<float> 10.000000
+      lookingAtAllowRepeat: false
+      boundsCheckObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boundsCheckBoundaryMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      boundsCheckTriggerOptions: On Enter
+      distanceCheckObjectA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distanceCheckObjectB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distanceCheckCompareType: -1
+      distanceCheckDistance: !<float> 1.000000
+      distanceCheckAllowRepeat: false
+      distanceCheckFlattenZForScreenTransforms: true
+      markerTrackingEventEventType: Marker Found
+      markerTrackingEventMarkerTracking: !<reference.MarkerTrackingComponent> 00000000-0000-0000-0000-000000000000
+      objectTrackingEventEventType: Object Found
+      objectTrackingEventObjectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectTrackingEventDescStartKey: ""
+      objectTrackingEventDescEndKey: ""
+      objectTracking3DEventObjectTracking3D: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      objectTracking3DEventEventType: Tracking Started
+      landmarkerEventEventType: Location Found
+      landmarkerEventLocationTracking: !<reference.DeviceLocationTrackingComponent> 00000000-0000-0000-0000-000000000000
+      machineLearningEventEventType: Loading Finished
+      machineLearningEventMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      recordingEventEventType: SnapRecordStartEvent
+      onCustomTriggerTriggerName: reset
+      onCustomTriggerTriggerNames: !<string[]>
+        []
+      onCustomTriggerUseList: false
+      physicsColliderEventCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      physicsColliderEventCollisionType: Collision
+      physicsColliderEventEventType: On Enter
+      physicsColliderEventOverlapStatic: true
+      physicsColliderEventOverlapDynamic: true
+      physicsColliderEventOverlapIntangible: true
+      physicsColliderEventFilterObjectsBy: None
+      physicsColliderEventAllowedObjects: !<reference.ColliderComponent[]>
+        []
+      physicsColliderEventNameMatchType: Equals
+      physicsColliderEventAllowedNames: !<string[]>
+        []
+      physicsRaycastRaycastSource: touch
+      physicsRaycastSourceObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      physicsRaycastFlipForwardVec: false
+      physicsRaycastCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      physicsRaycastTapEvent: true
+      physicsRaycastTouchStartEvent: false
+      physicsRaycastTouchMoveEvent: false
+      physicsRaycastTouchEndEvent: false
+      physicsRaycastProbeType: global
+      physicsRaycastPhysicsWorld: !<reference.WorldComponent> 00000000-0000-0000-0000-000000000000
+      physicsRaycastMaxDistance: !<float> 10000.000000
+      physicsRaycastDebugDrawEnabled: false
+      physicsRaycastOverlapStatic: true
+      physicsRaycastOverlapDynamic: true
+      physicsRaycastOverlapIntangible: true
+      physicsRaycastFilterObjectsBy: None
+      physicsRaycastAllowedObjects: !<reference.ColliderComponent[]>
+        []
+      physicsRaycastNameMatchType: Equals
+      physicsRaycastAllowedNames: !<string[]>
+        []
+      triggerLimitType: Always
+      triggerInterval: !<float> 1.000000
+      triggerDelay: !<float> 0.000000
+      responseType: destroyObject
+      animateImageAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      animateImageVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      animateImageAction: Play or Resume
+      animateImageLoop: false
+      animateImagePauseFrame: 0
+      animateImageAdvanced: false
+      animateImagePingPong: false
+      animateImageReverse: false
+      animateMeshAnimationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animateMeshLayerName: ""
+      animateMeshAction: Play or Resume
+      animateMeshWeight: !<float> 1.000000
+      animateMeshLoop: false
+      animateMeshStopOtherLayers: true
+      playSoundAction: Play
+      playSoundAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      playSoundAudioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      playSoundLoop: false
+      playSoundVolume: !<float> 1.000000
+      playSoundFadeOut: false
+      playVideoVideoTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      playVideoVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      playVideoAction: Play or Resume
+      playVideoLoop: false
+      setEnabledEntityType: SceneObject
+      setEnabledTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setEnabledTargetComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      setEnabledAction: Enable
+      setParentTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setParentNewParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setParentPreserveWorldTransform: false
+      setColorVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setColorMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      setColorColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      setTextureTarget: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setTextureNewTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      setTextComponentType: Text
+      setTextTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      setTextText3DComponent: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      setTextText: ""
+      runTweenTargetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      runTweenTweenName: ""
+      runTweenAction: Start
+      setPositionObjectToMove: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setPositionPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setPositionLocalSpace: true
+      setRotationObjectToRotate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setRotationRotationAngle: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setRotationLocalSpace: true
+      setScaleObjectToScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setScaleScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScaleLocalSpace: true
+      setScreenPositionScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenPositionPositionType: Basic Position
+      setScreenPositionBasicPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScreenPositionAnchorsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenPositionOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenRotationScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenRotationAngle: !<float> 0.000000
+      setScreenSizeScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      setScreenSizeSizeType: Basic Scale
+      setScreenSizeBasicScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setScreenSizeAnchorsSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      setScreenSizeOffsetsSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      setBlendshapesV2MeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      setBlendshapesV2Name: ""
+      setBlendshapesV2Weight: !<float> 0.000000
+      setMaterialParameterTargetType: Material
+      setMaterialParameterMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVFXAsset: !<reference.VFXAsset> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVFXComponent: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterParameterName: ""
+      setMaterialParameterValueType: float
+      setMaterialParameterBoolValue: false
+      setMaterialParameterIntValue: 0
+      setMaterialParameterFloatValue: !<float> 0.000000
+      setMaterialParameterColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setMaterialParameterColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      setMaterialParameterTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      setMaterialParameterVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      setMaterialParameterVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      setMaterialParameterVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      setTouchBlockingTargetType: Global Touches
+      setTouchBlockingGlobalTouchBlocking: true
+      setTouchBlockingTouchComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      setTouchBlockingTouchTypeTouch: false
+      setTouchBlockingTouchTypeTap: false
+      setTouchBlockingTouchTypeDoubleTap: false
+      setTouchBlockingTouchTypeScale: false
+      setTouchBlockingTouchTypePan: false
+      setTouchBlockingTouchTypeSwipe: false
+      showHintHint: 0
+      showHintDuration: !<float> 2.000000
+      runMLMlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      runMLAction: Run Immediate
+      runMLSync: false
+      runMLRecurring: false
+      runMLStartTiming: 2
+      runMLEndTiming: 4
+      instantiatePrefabPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      instantiatePrefabParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      destroyObjectObject: !<reference.SceneObject> 3d9952fe-b5ea-4346-9833-9936edcedbf3
+      printMessageText: ""
+      callScriptAPITargetType: Component
+      callScriptAPISceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPIComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPIScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      callScriptAPICallType: 0
+      callScriptAPIFunctionName: ""
+      callScriptAPIPropertyName: ""
+      callScriptAPI_arg1ValueType: None
+      callScriptAPI_arg1BoolValue: false
+      callScriptAPI_arg1IntValue: 0
+      callScriptAPI_arg1FloatValue: !<float> 0.000000
+      callScriptAPI_arg1StringValue: ""
+      callScriptAPI_arg1ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg1ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg1Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_arg1Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg1Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg1QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_arg1SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg1BoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_arg1IntArrayValue: !<int[]>
+        []
+      callScriptAPI_arg1FloatArrayValue: !<float[]>
+        []
+      callScriptAPI_arg1StringArrayValue: !<string[]>
+        []
+      callScriptAPI_arg1Vec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_arg1Vec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_arg1Vec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_arg1QuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_arg1SceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_arg1AssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_arg1TextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_arg1ComponentArrayValue: !<reference.Component[]>
+        []
+      callScriptAPI_arg2ValueType: None
+      callScriptAPI_arg2BoolValue: false
+      callScriptAPI_arg2IntValue: 0
+      callScriptAPI_arg2FloatValue: !<float> 0.000000
+      callScriptAPI_arg2StringValue: ""
+      callScriptAPI_arg2ColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg2ColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg2Vec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_arg2Vec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_arg2Vec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_arg2QuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_arg2SceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2AssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2TextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2ComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_arg2BoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_arg2IntArrayValue: !<int[]>
+        []
+      callScriptAPI_arg2FloatArrayValue: !<float[]>
+        []
+      callScriptAPI_arg2StringArrayValue: !<string[]>
+        []
+      callScriptAPI_arg2Vec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_arg2Vec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_arg2Vec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_arg2QuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_arg2SceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_arg2AssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_arg2TextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_arg2ComponentArrayValue: !<reference.Component[]>
+        []
+      callScriptAPI_valueValueType: float
+      callScriptAPI_valueBoolValue: false
+      callScriptAPI_valueIntValue: 0
+      callScriptAPI_valueFloatValue: !<float> 0.000000
+      callScriptAPI_valueStringValue: ""
+      callScriptAPI_valueColorRGBValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_valueColorRGBAValue: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_valueVec2Value: !<Vec2> {x: 0.000000, y: 0.000000}
+      callScriptAPI_valueVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      callScriptAPI_valueVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      callScriptAPI_valueQuatValue: !<Quat> {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+      callScriptAPI_valueSceneObjectValue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueAssetValue: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueTextureValue: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueComponentValue: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      callScriptAPI_valueBoolArrayValue: !<bool[]>
+        []
+      callScriptAPI_valueIntArrayValue: !<int[]>
+        []
+      callScriptAPI_valueFloatArrayValue: !<float[]>
+        []
+      callScriptAPI_valueStringArrayValue: !<string[]>
+        []
+      callScriptAPI_valueVec2ArrayValue: !<Vec2[]>
+        []
+      callScriptAPI_valueVec3ArrayValue: !<Vec3[]>
+        []
+      callScriptAPI_valueVec4ArrayValue: !<Vec4[]>
+        []
+      callScriptAPI_valueQuatArrayValue: !<Quat[]>
+        []
+      callScriptAPI_valueSceneObjectArrayValue: !<reference.SceneObject[]>
+        []
+      callScriptAPI_valueAssetArrayValue: !<reference.Asset[]>
+        []
+      callScriptAPI_valueTextureArrayValue: !<reference.Texture[]>
+        []
+      callScriptAPI_valueComponentArrayValue: !<reference.Component[]>
+        []
+      sendCustomTriggerTriggerName: ""
+      sendCustomTriggerTriggerNames: !<string[]>
+        []
+      sendCustomTriggerUseList: false
+      sendCustomTriggerLoopAfterEnd: true
+      physicsApplyForceBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      physicsApplyForceForceType: Position
+      physicsApplyForceMode: Impulse
+      physicsApplyForceForceValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      physicsApplyForceSpace: World
+      physicsApplyForceObjectSpace: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneSceneName: ""
+      sceneManagerLoadSceneLoadType: Asynchronous
+      sceneManagerLoadSceneLoadAdditively: true
+      sceneManagerLoadSceneLoadEnabled: true
+      sceneManagerLoadSceneCustomizeSceneRoot: false
+      sceneManagerLoadSceneSceneRootObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneUseLoadingScene: false
+      sceneManagerLoadSceneLoadingSceneName: ""
+      sceneManagerLoadSceneCallbackOnProgress: false
+      sceneManagerLoadSceneOnProgressCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneOnProgressCallbackFunctionName: ""
+      sceneManagerLoadSceneCallbackOnComplete: false
+      sceneManagerLoadSceneOnCompleteCallbackScriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sceneManagerLoadSceneOnCompleteCallbackFunctionName: ""
+      setBlendshapesBlendshapes: !<reference.BlendShapes> 00000000-0000-0000-0000-000000000000
+      setBlendshapesName: ""
+      setBlendshapesWeight: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/55208446-c227-47fa-8d19-c8c65a6e58ae>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eae128e9-d807-4cd1-b56e-ce372f5d0feb
+    - !<own> 9bac4cdd-01ea-4d7c-997d-f3b3f906c1f3
+- !<BodyComponent/55539500-2413-4e34-ab99-2c1f38e96458>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/573d165c-13fe-4604-8863-df22bc66474c>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a0975c29-97d6-457a-aef2-a27e4137d330
+    - !<own> c22d7c4f-0ab4-4782-bf2f-bd13874824b5
+- !<RenderMeshVisual/5ae4e8a3-1bf8-4db5-83c8-7172ccca6905>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5c018aa8-c389-41d3-be41-23481983bdf9>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3f395ce1-b3e1-4c80-8d0f-1950c1165b55
+    - !<own> fbbf3ce4-541a-4b19-a4f1-5daebe5f00d1
+- !<BodyComponent/5c666e80-049c-4867-8239-ce6191861a36>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/5ca6db0c-893b-4dbb-bf1c-105d873b28a5>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7dda1a4c-d080-4404-8815-5d749e45e816
+    - !<own> 0f7f8fbf-137a-42fb-bca3-ee3bbce196c8
+- !<RenderMeshVisual/6548df5b-f7b6-4618-b358-fbb6e05df53f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/678141ec-ca00-497b-b52b-39fa3f0d2a21>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: Mesh
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 728be854-cd55-40fa-bd25-3f708d47287a
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/6787e99d-5a05-4186-aa75-2931c48aa7c7>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a4762ddf-7cb6-4235-80e2-7adb179ef67a
+    - !<own> 3f7dbf33-3977-41d3-bf9a-eb5ad1308a18
+- !<RenderMeshVisual/6e6c7104-e845-4150-a3d8-c30cf6ec30c9>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/70c6f608-23b9-46e6-ae0f-962e9c743ef2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/73cb3943-7355-44b8-a57d-d5bafd2729e3>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5454c2cd-1263-4145-99b0-1fa32af8fd58
+    - !<own> 0fa1209f-d37a-4e60-998a-f8b2084af9a5
+- !<SceneObject/75060c7d-4f11-4937-880d-04c6ccd16947>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ba36ed3b-1287-4f46-ba71-4bd5e74874d9
+    - !<own> c72ad543-888d-456e-a9a9-aa23cfdfc3d2
+- !<ObjectPrefabAssetData/75c52f87-8ca1-4f4c-9f1e-75a535ed4f2a>
+  SourceRemaps:
+    - 01435e62-5849-453e-95c4-dd28c6eb1ad8: fd4dae37-25b6-499d-8ae1-6f5b6d1df604
+    - 01c3de13-404a-482f-9895-ddf60fcfc35e: 10e48e84-4485-4019-9d14-2476814a75c0
+    - 027c11a4-6bfa-487e-9bc0-f1a71dbe83cb: 09880fe9-1b36-4c86-874b-37b269647715
+    - 05efd519-de85-434a-9282-f1170036882a: 0c6f530f-9cd1-47fd-81a1-ce89d4cbdf66
+    - 088bb699-dead-4119-a293-76e42730055c: 5c018aa8-c389-41d3-be41-23481983bdf9
+    - 09f58bae-a50d-4f56-80b3-e1883912c555: b21004a7-ed8d-497b-98ca-932d4e8fc820
+    - 0acf80c3-78db-4f74-a2c8-7e0ff3e66087: d9f9a3aa-dbd8-419a-a191-2cb42396abb7
+    - 0cdcf76f-98db-4e63-ad88-10028997b821: 0a830967-244e-4f86-a4a7-429c6c38e959
+    - 118d7aaf-e507-4240-b488-ba5369b922c9: e9abeadd-c870-4033-adce-123b73b14457
+    - 11a72eeb-5adc-4f11-9cc2-fcf3070c2a57: 42581bb0-fde3-48fb-b1f6-69e888a0dc54
+    - 132cbfa3-653f-4480-8058-7568c1997b0a: 75060c7d-4f11-4937-880d-04c6ccd16947
+    - 14890159-00a5-425e-bb83-cc040fb87e5a: 3d9952fe-b5ea-4346-9833-9936edcedbf3
+    - 16e5ad2c-c562-4bc8-a6e4-f5e36074fdb7: 3f7dbf33-3977-41d3-bf9a-eb5ad1308a18
+    - 1c0650be-04f1-4369-acf7-aad88f7d1c7a: d2b4c44d-3a63-4667-badd-bb6bac2d5cd6
+    - 1ce94696-bd9e-4c10-8fac-699e034874cf: 45354c2c-d123-415c-bb70-50ac5d15d1c0
+    - 1d8dceda-c004-46b6-8cfe-9dd67e12b29d: e1ff197d-8d45-4bfc-8744-c1684fffe136
+    - 22d2bd48-b224-4414-a1b2-0795aac7b828: 2c20bdf2-e243-443e-af05-270ad4de2527
+    - 2418f889-ce5a-4d51-b13b-d7ee6bc36a56: 5ca6db0c-893b-4dbb-bf1c-105d873b28a5
+    - 247a41c5-8820-4a00-ac21-985a4e74211a: baee40a4-033b-40b7-b150-55195b53f4cb
+    - 2522aec5-7a42-4e90-9453-9087134c03e7: dd302739-f1b8-456c-a334-a319071b08e5
+    - 27031bfd-2299-4ace-b2ae-c3ab22cf2165: d1a6cabe-f94a-4272-9ff0-e8c90df68476
+    - 2968838a-6534-4b24-a190-513c90b79aa5: 9e3752ca-e8d2-4dec-a63e-d78853e6f92d
+    - 29c321ae-c9e0-42ea-a937-fa82491ee69c: 281ab82c-b291-4eab-8c33-1d411f76f142
+    - 2a2ea413-56f7-4ac5-a72d-76bd0003ae05: 6787e99d-5a05-4186-aa75-2931c48aa7c7
+    - 31a455f8-6346-4d73-b47b-c12a128f43aa: fe5fb3f0-a1a3-472d-a5f1-ff1a63209527
+    - 3307220a-a747-4fd3-94c3-8620e3f29959: 70c6f608-23b9-46e6-ae0f-962e9c743ef2
+    - 33d22d69-bf87-4818-ba8a-52db2f47e811: 196ecc93-c308-4678-b5c8-a5e507fd5816
+    - 35050cc4-1f0d-4c38-abff-e63849f607d3: 14d4abc8-4919-42cb-9966-d57bf14ef8c6
+    - 35a72616-9d85-4f0f-9bdf-7cfbd49fbb0c: 8ee96a18-e959-41c2-a765-daae9c1a7c43
+    - 36503bac-d246-4e1a-82b8-8de98867ec48: bda97176-0f71-4a64-9b6f-555b586c0047
+    - 36e2160c-cc64-4684-9cc1-1941171fc471: d875d533-730b-488a-aaaf-3f558797bb57
+    - 37b082a6-490b-42fd-b4e9-78a414e90205: 0421139d-de90-4dea-b320-719bb6d3f6da
+    - 37dc5d85-a487-4e0f-9071-f2af98c753a6: 3c24ae34-e393-487e-867e-7f8c252ca21c
+    - 3a427a36-436b-4e86-9ac0-690351f300d7: a2b56346-31e0-4927-a5b4-0d59ec208450
+    - 3caa72fa-a55b-45b9-8ebe-f14323a3ec24: 0a24a95a-4681-4b2e-97a6-9e4b818a1bcb
+    - 42fc1f30-96cd-48fe-a15e-63d9a9513c2d: 80afc07f-1ea2-432b-a200-4eb505cf22c9
+    - 44ca6a97-cab4-4912-82d3-2787afff509f: e8b755fc-99aa-4a76-9902-2ee7b5cdd701
+    - 45011234-86bc-442b-9b69-512d18225135: e2f4a9a1-8a97-4a81-9e13-7924a4af64e5
+    - 45094363-1068-46f6-be85-a2154480ae89: 5ae4e8a3-1bf8-4db5-83c8-7172ccca6905
+    - 46593c64-e878-4989-8e5e-65bb50cb052b: c40e1cab-fd9a-443b-8682-f24a001e2f01
+    - 474e3f45-d837-42e7-ac32-49d9ac1157ae: 678141ec-ca00-497b-b52b-39fa3f0d2a21
+    - 477f3830-a83d-44dd-ba92-ec81f6fb81cf: fc497c60-6d9a-400e-b331-43d951724259
+    - 4e9f07f7-1a7f-44b8-a7d1-16753029f7c8: ad817b77-cb5d-4208-b488-12594eb6e4f9
+    - 51bf4ae7-c6a0-4e42-8293-9a62e6f68210: d5b0655d-a9a3-49dc-aa2f-b986c77da2ba
+    - 561665e0-f64e-4fda-b6c7-b70e423c9c40: c6ef7d09-a58b-4279-9724-30e875fe52a0
+    - 5b2f28e2-4340-49fa-bd33-1de86d70264c: e7589669-8d79-4dbb-82e6-e6b2f5a63c74
+    - 5dd5541e-3efc-40f6-80bf-b5e18eae5116: 4258e83f-b14f-4798-a7ac-5759730b122a
+    - 5e32c2ba-3387-4504-a795-5519d67f51a3: 2f067acf-6ace-4ee3-8993-b530abe2c1a6
+    - 5e9a2d0a-229b-4fe3-bfa2-0499f051e3c3: 6e6c7104-e845-4150-a3d8-c30cf6ec30c9
+    - 5f7015bc-034b-4dd1-a624-cd3c27792017: afdb54d4-7d92-4fc9-a36a-3d33ad580481
+    - 5ff3b149-983a-4ab8-8863-581a2f37c706: 1c564e86-f202-4767-86df-dbe241051c48
+    - 667717f4-1016-4d8a-a621-810515c855c9: f659db14-3106-4411-8007-961deccc2b44
+    - 66d39efa-130a-49c5-96c0-a7e264db8578: 0fa1209f-d37a-4e60-998a-f8b2084af9a5
+    - 66ee1332-6c85-4978-9478-f717da66a74a: c94aca72-a255-4aa2-8a9b-99c40b2e5eb6
+    - 6740820a-841a-46fc-9594-a898ee200cd7: de55d372-761f-4c18-b62c-356dac272034
+    - 6a56dd20-4dc1-487d-9c9a-0e0b2fa45664: f8324813-1678-43c5-8c35-6665e715255f
+    - 6b6867d7-1d54-41ed-8e1e-c73b1f458360: 06b2e548-326d-4ee7-85ad-80e298df7f14
+    - 6bef2c26-ffe3-4083-9c0f-5361318cc551: 73cb3943-7355-44b8-a57d-d5bafd2729e3
+    - 6dd76471-468e-41cf-97ea-00bed08fd3ea: a58fcaf0-38c3-4bc4-8a3f-2f5cb70948ed
+    - 6f62a56a-23fa-4669-abb3-7774e5599ee3: 3f395ce1-b3e1-4c80-8d0f-1950c1165b55
+    - 70af78a3-213f-437d-92e6-60a8c0ccd648: a610860b-ccae-4d2b-8d31-80d0233049a2
+    - 749fb9ab-8291-4e34-a279-f39f3d442018: 0fa2a89d-a79e-4e54-809c-5141127f93d0
+    - 784c03aa-8da8-4849-b847-25f99f68326c: 3e223c92-68e6-407b-88e7-4c67b4e52a6e
+    - 7a259894-9d47-41f3-a770-0f8b0c418153: 55539500-2413-4e34-ab99-2c1f38e96458
+    - 805c72f9-19d5-4b1e-951c-11882418f51a: 8b92043a-bd23-4c1b-bb62-876236f48dae
+    - 85cb518f-8a9d-471c-961b-d2d34e2e7144: fbbf3ce4-541a-4b19-a4f1-5daebe5f00d1
+    - 86634133-f4f0-4b78-b810-00de4267ed3b: ff73e152-621a-4c51-8172-5db237539654
+    - 87274bc8-e69a-45bb-96e7-7c2629588234: a0b33cc0-45d5-4215-a6f9-6c0a3d2d171f
+    - 8728baad-2009-46ea-86f4-a88eed85e4b3: 82ac4b30-4c43-42b2-ad68-b02f9970b880
+    - 87f26587-65f4-4e24-a7d9-6f9ea34cd4a3: 8daddba9-8e2e-420b-b357-86d2f022b80e
+    - 88625574-8b44-4dfe-beeb-b11cb2b699da: 82df9b34-695b-4707-8db2-57039ea55918
+    - 8b39bc7d-4558-4b04-82c8-44008837075b: 3e2f8269-2d73-49dd-81c1-629667e43b79
+    - 8c55095a-8e5d-4e32-9926-a432afe129df: baa74030-8c29-414c-9e55-b03848ce5471
+    - 8cc6d69e-9af0-42e5-9e36-734f327bf07c: 82815cb6-b897-41fc-8293-35cdec58c069
+    - 8d959521-a5a1-4aed-b00f-65c38ae07c43: 5c666e80-049c-4867-8239-ce6191861a36
+    - 8edb4905-bbec-48b1-9606-bda385fb6948: ca4d9758-9213-4393-9833-d47ff33d25c6
+    - 8f7655cc-9ffa-4063-83ef-86470cf6ee60: d3303d15-25dc-4c35-8036-6051cb9c09da
+    - 9024a587-a950-4d35-9bc2-013d79be1cd6: 0f4ea4eb-5d5c-4f5e-9362-40542b6861fe
+    - 9037ccbe-d247-435f-b4b6-8288864e82a9: d0a1542a-fcf6-4486-9ed8-76a6d818336e
+    - 92eb04bc-15cd-4bc3-9d9b-57fbe29971d3: 9bac4cdd-01ea-4d7c-997d-f3b3f906c1f3
+    - 9578f101-a7f3-4640-84f4-b0050e3b0a66: e6bd9034-47b2-4c9d-ab93-274ed03b86b5
+    - 97520a3a-dbaf-4602-8e71-c0903493359d: 082dbab5-c459-477f-b0ae-8980d22f8025
+    - 9813a37a-e1bc-4ec0-8cf0-dd3cb551e01f: 7af918de-5799-410a-8a3b-ec72483d371e
+    - 99c5d1f2-799e-4c6f-841f-3f634d19a22f: a0975c29-97d6-457a-aef2-a27e4137d330
+    - 9aa89cf4-0e4c-4af8-a022-fe3d180f080c: 90fe03e3-4ca5-4540-b74c-e91e8a20a113
+    - 9bf6f344-86fc-4e41-8d0a-8911e2fb51ad: 86cbf082-fa09-4ce3-ad9f-51dd71ecef2a
+    - 9c1f6520-afae-4f30-8937-66cadf52da5f: 7dda1a4c-d080-4404-8815-5d749e45e816
+    - 9de995e1-45f8-4ed6-ba9c-e5b5db63d849: 848acf04-120e-4622-8a99-d97dc16a2571
+    - a018be63-8cec-436b-b764-9e80e4f27b77: 776615e1-9e86-4b80-bb22-a12727fd091b
+    - a4814a26-74d6-4688-bad4-3b39ec6eba94: 3b6035f0-b6d9-4b09-a4c2-e2e442cefccb
+    - a5a27381-e6a9-4ab2-b6fd-69773756553a: 4fc570dc-692f-441f-9aa9-6cdd7e6724e9
+    - a7440629-2d15-4e44-92b7-5a388134733e: 8f883c0e-1177-4c31-b8be-98b32c394110
+    - a9685da7-6b9f-416a-b71a-0ff26b4b21c7: eb4aa835-1694-43a6-ba41-a94f53b64cbc
+    - ab86d346-a56d-430e-96be-c90f308827d4: 6548df5b-f7b6-4618-b358-fbb6e05df53f
+    - ad97cabb-92d0-4fcd-9cbd-9891d94208f0: 01b400eb-4b86-439f-a617-2787d18e2d74
+    - ada6b19a-558e-42e6-9060-701d13355f95: 0788910f-eb01-4234-b6ec-10faf1156e5d
+    - ae43f1f2-2d14-4104-8fb1-0f699d92e063: a4968f33-a735-4512-ae2d-86adecd8c9fa
+    - b60f0e5c-c296-465b-9db0-b97c2c30d5e6: 074c1624-eac1-496c-8912-0ea9ba38102d
+    - b6366e03-e7ff-44a1-b94d-f005ff6c6bbd: ba36ed3b-1287-4f46-ba71-4bd5e74874d9
+    - b6f38b85-d94b-4654-929b-5b70ca94450b: 858c7c8a-b7ea-4439-baae-0284b1f01477
+    - b95e3975-9fec-46de-9033-118a63bc5054: c8297c51-f647-494f-bf81-19a9393be530
+    - bb2af049-bc26-43c5-b764-e0c3159f85ed: 54d558e3-38a7-4692-aeff-e8ffbc111bb3
+    - bbf1cdb9-a23a-4d43-9536-7a7c4e2ba130: 2dbda4d0-e0fb-4c8d-8612-48dc36eaaf1f
+    - bc854ef2-b84d-4158-bdbc-9260dfafa105: fcbc553f-09b6-4216-91c5-8da5e4e82c18
+    - bce86d80-c0c4-41e1-9a82-1f010142255d: a9a3e230-91df-4dd4-bab4-0246ad26f98b
+    - bfc4c89b-ff92-4d55-8bf3-83d2ee86d69a: eae128e9-d807-4cd1-b56e-ce372f5d0feb
+    - c017d5ce-12bf-430e-a1ed-d58b6ae318d4: 0daa08c8-9d3d-4cf4-882b-c30203534538
+    - c4f39985-5686-4414-b3d3-3d58ae69291d: a4762ddf-7cb6-4235-80e2-7adb179ef67a
+    - ca8eb57e-14eb-4be6-90bb-6230f119bcde: d48f1b33-6922-49a9-8016-1204188354b5
+    - cb4e530a-9d04-48a7-95ec-646d989f470c: e94450fd-77bf-4513-a3ba-07a224b04357
+    - cb6d83a5-8428-41a0-941e-27ad57a91122: ba24c446-97b3-49ff-acdf-d298588a4e8a
+    - ccde121b-9cdd-4abf-9c8b-a770fec05032: ea7ee872-8d2c-43c2-9620-3fe0a882843d
+    - cde22770-76e1-4dc0-b48a-89bfe7e029ad: 141be5a0-460c-404f-86ee-a54bfe23816d
+    - ce388a7f-7fcd-43a6-bb72-110001dedb10: ec3f7986-57a4-4a45-b904-ee190d0c3843
+    - ce7ac5ab-2385-4558-9bcf-17325041c6cb: 7871e668-569b-4d48-8e71-6314d2dadcad
+    - cf4207d4-bc0e-40da-a7d0-190e369198c5: dba08e5f-fdba-46b1-8f2c-bc644df885cf
+    - cfe616cc-cc80-489b-8548-dc56fd107983: e3debbb8-a48e-4f25-8696-059cd0e20f27
+    - d68def7c-762c-4514-b545-ace0a419e659: 55208446-c227-47fa-8d19-c8c65a6e58ae
+    - d7a4b44b-7b21-40d4-9653-d0c0cf33de31: a53a7912-1fd8-4f22-af28-dc8f321062f3
+    - d7a5fc93-0b4c-4e96-8b3d-1c3e29ee8544: f2bfdc10-f006-46dc-b2ab-b8942c64a7ff
+    - d89c4463-b960-481a-bb43-53ddf02f7f81: 35f5bdd3-49d7-4d44-8d12-583a72f528f2
+    - da37228c-fbe3-463c-85a5-a42a22698b38: 335a390e-0e85-4c82-93bc-b76bab9ffc42
+    - dc9cbc71-f0e4-4303-bba9-67eaa83110f0: fb08fe9d-871d-491f-9e5f-f5c3246b8c29
+    - dca048ea-6e61-4524-8e4a-3f2e8ec908c6: f13a4651-476b-4ed0-9221-0c250f3c76c1
+    - dd8ce59a-6857-46e1-a996-180321f91ff9: c5f2a9d2-640c-444d-a9f1-a07d5aed88b3
+    - e4c080e0-a972-4cf3-b4d8-c62acd8a4857: 20ad02e9-3844-471d-83a1-3ac19676bf82
+    - e8ce6e98-3655-43de-a2f5-b675f7dbb490: 4438b107-d1b4-440f-8f85-e34d310f9c54
+    - e9869c3f-632c-46d4-b5f4-7c99e544e025: 391d345a-3eb9-4120-ba02-9c7378e81813
+    - eaa94234-e0fa-4939-b401-f1505ad9aa4c: 5454c2cd-1263-4145-99b0-1fa32af8fd58
+    - ecfb593a-eefa-44c6-be7d-44bffda68a38: 288ad0c7-790a-46cd-8395-fabb083b40eb
+    - ed8babc2-992c-4c37-9838-26495da21344: 8ee639bb-a404-406f-aa7a-77194a3753ab
+    - f114285e-5c00-4b94-a2b9-77bb752b6e34: 573d165c-13fe-4604-8863-df22bc66474c
+    - f3f20367-a034-427f-b454-283fcb01345e: ab5bb403-1e3d-4570-8010-0ce1a8ab0307
+    - f42d5f1d-2750-4b4f-9017-9ee9340322e1: c22d7c4f-0ab4-4782-bf2f-bd13874824b5
+    - f646c314-6184-4166-ada0-f66c455b7451: 0ed8606c-eef4-4cfe-954e-d7b00457a77f
+    - fb894c68-dfae-4a50-915f-821e65443d8c: 0f7f8fbf-137a-42fb-bca3-ee3bbce196c8
+    - fb97bf39-2309-400e-9c15-7cbdc32bf111: c72ad543-888d-456e-a9a9-aa23cfdfc3d2
+  SourceState: !<own> 7fc397a8-0ae8-4eda-a82f-8969d3513c96
+- !<SceneObject/776615e1-9e86-4b80-bb22-a12727fd091b>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> de55d372-761f-4c18-b62c-356dac272034
+    - !<own> 8ee96a18-e959-41c2-a765-daae9c1a7c43
+- !<BodyComponent/7871e668-569b-4d48-8e71-6314d2dadcad>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/7af918de-5799-410a-8a3b-ec72483d371e>
+  PrefabRemaps:
+    []
+  Name: Floor
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -3.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 150.000000, y: 150.000000, z: 150.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eb4aa835-1694-43a6-ba41-a94f53b64cbc
+    - !<own> 678141ec-ca00-497b-b52b-39fa3f0d2a21
+- !<BodyComponent/7dda1a4c-d080-4404-8815-5d749e45e816>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<ObjectPrefab/7fc397a8-0ae8-4eda-a82f-8969d3513c96>
+  PackagePath: ""
+  objects:
+    - !<own> 3d9952fe-b5ea-4346-9833-9936edcedbf3
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/80afc07f-1ea2-432b-a200-4eb505cf22c9>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/82815cb6-b897-41fc-8293-35cdec58c069>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 18.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 10e48e84-4485-4019-9d14-2476814a75c0
+    - !<own> 1c564e86-f202-4767-86df-dbe241051c48
+    - !<own> 2dbda4d0-e0fb-4c8d-8612-48dc36eaaf1f
+  Components:
+    []
+- !<BodyComponent/82ac4b30-4c43-42b2-ad68-b02f9970b880>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/82df9b34-695b-4707-8db2-57039ea55918>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/848acf04-120e-4622-8a99-d97dc16a2571>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/858c7c8a-b7ea-4439-baae-0284b1f01477>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e223c92-68e6-407b-88e7-4c67b4e52a6e
+    - !<own> 14d4abc8-4919-42cb-9966-d57bf14ef8c6
+- !<SceneObject/86cbf082-fa09-4ce3-ad9f-51dd71ecef2a>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 10
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 66.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 074c1624-eac1-496c-8912-0ea9ba38102d
+    - !<own> 55208446-c227-47fa-8d19-c8c65a6e58ae
+    - !<own> 0daa08c8-9d3d-4cf4-882b-c30203534538
+  Components:
+    []
+- !<SceneObject/8b92043a-bd23-4c1b-bb62-876236f48dae>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 12.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dba08e5f-fdba-46b1-8f2c-bc644df885cf
+    - !<own> 0ed8606c-eef4-4cfe-954e-d7b00457a77f
+    - !<own> e3debbb8-a48e-4f25-8696-059cd0e20f27
+  Components:
+    []
+- !<BodyComponent/8daddba9-8e2e-420b-b357-86d2f022b80e>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/8ee639bb-a404-406f-aa7a-77194a3753ab>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 5
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 36.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 281ab82c-b291-4eab-8c33-1d411f76f142
+    - !<own> 5ca6db0c-893b-4dbb-bf1c-105d873b28a5
+    - !<own> 0788910f-eb01-4234-b6ec-10faf1156e5d
+  Components:
+    []
+- !<RenderMeshVisual/8ee96a18-e959-41c2-a765-daae9c1a7c43>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8f883c0e-1177-4c31-b8be-98b32c394110>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f13a4651-476b-4ed0-9221-0c250f3c76c1
+    - !<own> a58fcaf0-38c3-4bc4-8a3f-2f5cb70948ed
+- !<SceneObject/90fe03e3-4ca5-4540-b74c-e91e8a20a113>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fc497c60-6d9a-400e-b331-43d951724259
+    - !<own> bda97176-0f71-4a64-9b6f-555b586c0047
+- !<RenderMeshVisual/9bac4cdd-01ea-4d7c-997d-f3b3f906c1f3>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9e3752ca-e8d2-4dec-a63e-d78853e6f92d>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2f067acf-6ace-4ee3-8993-b530abe2c1a6
+    - !<own> 3e2f8269-2d73-49dd-81c1-629667e43b79
+- !<BodyComponent/a0975c29-97d6-457a-aef2-a27e4137d330>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/a0b33cc0-45d5-4215-a6f9-6c0a3d2d171f>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 82ac4b30-4c43-42b2-ad68-b02f9970b880
+    - !<own> 45354c2c-d123-415c-bb70-50ac5d15d1c0
+- !<BodyComponent/a2b56346-31e0-4927-a5b4-0d59ec208450>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/a4762ddf-7cb6-4235-80e2-7adb179ef67a>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/a4968f33-a735-4512-ae2d-86adecd8c9fa>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a53a7912-1fd8-4f22-af28-dc8f321062f3>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 35f5bdd3-49d7-4d44-8d12-583a72f528f2
+    - !<own> ad817b77-cb5d-4208-b488-12594eb6e4f9
+- !<RenderMeshVisual/a58fcaf0-38c3-4bc4-8a3f-2f5cb70948ed>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a610860b-ccae-4d2b-8d31-80d0233049a2>
+  PrefabRemaps:
+    []
+  Name: Layer Copy
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 6.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 858c7c8a-b7ea-4439-baae-0284b1f01477
+    - !<own> b21004a7-ed8d-497b-98ca-932d4e8fc820
+    - !<own> 776615e1-9e86-4b80-bb22-a12727fd091b
+  Components:
+    []
+- !<BodyComponent/a9a3e230-91df-4dd4-bab4-0246ad26f98b>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/ab5bb403-1e3d-4570-8010-0ce1a8ab0307>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ad817b77-cb5d-4208-b488-12594eb6e4f9>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/afdb54d4-7d92-4fc9-a36a-3d33ad580481>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b21004a7-ed8d-497b-98ca-932d4e8fc820>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff73e152-621a-4c51-8172-5db237539654
+    - !<own> f8324813-1678-43c5-8c35-6665e715255f
+- !<RenderMeshVisual/ba24c446-97b3-49ff-acdf-d298588a4e8a>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/ba36ed3b-1287-4f46-ba71-4bd5e74874d9>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/baa74030-8c29-414c-9e55-b03848ce5471>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/baee40a4-033b-40b7-b150-55195b53f4cb>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/bda97176-0f71-4a64-9b6f-555b586c0047>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c22d7c4f-0ab4-4782-bf2f-bd13874824b5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/c40e1cab-fd9a-443b-8682-f24a001e2f01>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/c5f2a9d2-640c-444d-a9f1-a07d5aed88b3>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c6ef7d09-a58b-4279-9724-30e875fe52a0>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c72ad543-888d-456e-a9a9-aa23cfdfc3d2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/c8297c51-f647-494f-bf81-19a9393be530>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/c94aca72-a255-4aa2-8a9b-99c40b2e5eb6>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/ca4d9758-9213-4393-9833-d47ff33d25c6>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d0a1542a-fcf6-4486-9ed8-76a6d818336e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/d1a6cabe-f94a-4272-9ff0-e8c90df68476>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/d2b4c44d-3a63-4667-badd-bb6bac2d5cd6>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/d3303d15-25dc-4c35-8036-6051cb9c09da>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/d48f1b33-6922-49a9-8016-1204188354b5>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8daddba9-8e2e-420b-b357-86d2f022b80e
+    - !<own> 42581bb0-fde3-48fb-b1f6-69e888a0dc54
+- !<SceneObject/d5b0655d-a9a3-49dc-aa2f-b986c77da2ba>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0c6f530f-9cd1-47fd-81a1-ce89d4cbdf66
+    - !<own> 082dbab5-c459-477f-b0ae-8980d22f8025
+- !<RenderMeshVisual/d875d533-730b-488a-aaaf-3f558797bb57>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d9f9a3aa-dbd8-419a-a191-2cb42396abb7>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 6
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 42.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e7589669-8d79-4dbb-82e6-e6b2f5a63c74
+    - !<own> 0fa2a89d-a79e-4e54-809c-5141127f93d0
+    - !<own> e1ff197d-8d45-4bfc-8744-c1684fffe136
+  Components:
+    []
+- !<SceneObject/dba08e5f-fdba-46b1-8f2c-bc644df885cf>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5c666e80-049c-4867-8239-ce6191861a36
+    - !<own> 391d345a-3eb9-4120-ba02-9c7378e81813
+- !<BodyComponent/dd302739-f1b8-456c-a334-a319071b08e5>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/de55d372-761f-4c18-b62c-356dac272034>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/e1ff197d-8d45-4bfc-8744-c1684fffe136>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c40e1cab-fd9a-443b-8682-f24a001e2f01
+    - !<own> baee40a4-033b-40b7-b150-55195b53f4cb
+- !<SceneObject/e2f4a9a1-8a97-4a81-9e13-7924a4af64e5>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 8
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 54.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9e3752ca-e8d2-4dec-a63e-d78853e6f92d
+    - !<own> 75060c7d-4f11-4937-880d-04c6ccd16947
+    - !<own> 6787e99d-5a05-4186-aa75-2931c48aa7c7
+  Components:
+    []
+- !<SceneObject/e3debbb8-a48e-4f25-8696-059cd0e20f27>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c94aca72-a255-4aa2-8a9b-99c40b2e5eb6
+    - !<own> 5ae4e8a3-1bf8-4db5-83c8-7172ccca6905
+- !<SceneObject/e6bd9034-47b2-4c9d-ab93-274ed03b86b5>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d2b4c44d-3a63-4667-badd-bb6bac2d5cd6
+    - !<own> ca4d9758-9213-4393-9833-d47ff33d25c6
+- !<SceneObject/e7589669-8d79-4dbb-82e6-e6b2f5a63c74>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 15.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d3303d15-25dc-4c35-8036-6051cb9c09da
+    - !<own> a4968f33-a735-4512-ae2d-86adecd8c9fa
+- !<SceneObject/e8b755fc-99aa-4a76-9902-2ee7b5cdd701>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 11
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 72.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e6bd9034-47b2-4c9d-ab93-274ed03b86b5
+    - !<own> 01b400eb-4b86-439f-a617-2787d18e2d74
+    - !<own> 8f883c0e-1177-4c31-b8be-98b32c394110
+  Components:
+    []
+- !<SceneObject/e94450fd-77bf-4513-a3ba-07a224b04357>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 7
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 48.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5c018aa8-c389-41d3-be41-23481983bdf9
+    - !<own> 20ad02e9-3844-471d-83a1-3ac19676bf82
+    - !<own> 573d165c-13fe-4604-8863-df22bc66474c
+  Components:
+    []
+- !<BodyComponent/e9abeadd-c870-4033-adce-123b73b14457>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/ea7ee872-8d2c-43c2-9620-3fe0a882843d>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/eae128e9-d807-4cd1-b56e-ce372f5d0feb>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/eb4aa835-1694-43a6-ba41-a94f53b64cbc>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 83bb9e2f-80c4-4857-a742-ddd53eca643c
+  Mesh: !<reference> 1f3560e8-5ea4-47a3-8be6-3cc1e7d2ce4a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/ec3f7986-57a4-4a45-b904-ee190d0c3843>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/f13a4651-476b-4ed0-9221-0c250f3c76c1>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/f2bfdc10-f006-46dc-b2ab-b8942c64a7ff>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/f659db14-3106-4411-8007-961deccc2b44>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/f8324813-1678-43c5-8c35-6665e715255f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fb08fe9d-871d-491f-9e5f-f5c3246b8c29>
+  PrefabRemaps:
+    []
+  Name: Layer Copy 9
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 60.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 73cb3943-7355-44b8-a57d-d5bafd2729e3
+    - !<own> d5b0655d-a9a3-49dc-aa2f-b986c77da2ba
+    - !<own> d48f1b33-6922-49a9-8016-1204188354b5
+  Components:
+    []
+- !<RenderMeshVisual/fbbf3ce4-541a-4b19-a4f1-5daebe5f00d1>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/fc497c60-6d9a-400e-b331-43d951724259>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<BodyComponent/fcbc553f-09b6-4216-91c5-8da5e4e82c18>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<RenderMeshVisual/fd4dae37-25b6-499d-8ae1-6f5b6d1df604>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fe5fb3f0-a1a3-472d-a5f1-ff1a63209527>
+  PrefabRemaps:
+    []
+  Name: Middle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 40.000000, y: 5.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4258e83f-b14f-4798-a7ac-5759730b122a
+    - !<own> ab5bb403-1e3d-4570-8010-0ce1a8ab0307
+- !<BodyComponent/ff73e152-621a-4c51-8172-5db237539654>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000

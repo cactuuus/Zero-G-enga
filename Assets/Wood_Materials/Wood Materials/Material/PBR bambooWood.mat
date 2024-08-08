@@ -1,0 +1,77 @@
+- !<Material/462f3a78-7fd5-43af-86db-d40bd5cbc8fd>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 71521b6b-ef90-48f1-8458-094e25a94985
+- !<PassInfo/71521b6b-ef90-48f1-8458-094e25a94985>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N008:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Center_N016:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Emissive_N006:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_SpecularAO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 1d7e4354-7235-4194-a5ad-e5184982b4b4
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: 0a12dfb7-405b-4b71-abec-4f8afecef166
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+    normalTex:
+      typeIdx: 9
+      value:
+        id: 2d36057b-88ca-4752-b6df-a0866b017f06
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+    uvAngle:
+      typeIdx: 1
+      value: 0.000000
+    uvScale:
+      typeIdx: 1
+      value: 1.000000
+  Pass: !<reference> 81d4e75e-988f-48b2-94ba-f08ce875efdf

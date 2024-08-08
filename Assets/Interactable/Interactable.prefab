@@ -1,0 +1,73 @@
+- !<ObjectPrefab/5d0242b8-1e16-4980-905c-29bb18094a24>
+  PackagePath: ""
+  objects:
+    - !<own> 7f8e676c-90f9-4d38-8d18-67a2d4b040d1
+  LazyLoading: true
+  RetainAssets: true
+- !<BodyComponent/28403ad4-d0a0-4cd5-9aef-033a170ed3be>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: Box
+  Axis: Y
+  Length: 18.000000
+  Radius: 6.000000
+  FitVisual: true
+  SphereRadius: 6.000000
+  Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Asset: !<reference> 00000000-0000-0000-0000-000000000000
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  Convex: false
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> a12b9b99-e15c-4b22-bf40-17baac858ff6
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 70328434-bbf6-4ada-aca3-f9052b89500d
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.010000
+  AngularDamping: 0.010000
+- !<SceneObject/7f8e676c-90f9-4d38-8d18-67a2d4b040d1>
+  PrefabRemaps:
+    []
+  Name: Iteractable
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 28403ad4-d0a0-4cd5-9aef-033a170ed3be
+    - !<own> c675ed51-485c-4279-8a78-5a58e5694fd3
+- !<RenderMeshVisual/c675ed51-485c-4279-8a78-5a58e5694fd3>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 462f3a78-7fd5-43af-86db-d40bd5cbc8fd
+  Mesh: !<reference> 84719b90-86f1-4595-a1cf-7cc89832f999
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -1,0 +1,106 @@
+- !<Material/83bb9e2f-80c4-4857-a742-ddd53eca643c>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 02db275d-65e2-4989-acb1-85316e2416ee
+- !<PassInfo/02db275d-65e2-4989-acb1-85316e2416ee>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Glass
+  Properties:
+    Intensity:
+      typeIdx: 1
+      value: 2.270000
+    Port_AO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Emissive_N006:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Input1_N017:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N024:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N058:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input2_N060:
+      typeIdx: 1
+      value: 0.200000
+    Port_Metallic_N006:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxA_N063:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N076:
+      typeIdx: 1
+      value: 0.900000
+    Port_RangeMaxB_N063:
+      typeIdx: 1
+      value: 0.833500
+    Port_RangeMaxB_N076:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N063:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N076:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N063:
+      typeIdx: 1
+      value: 0.166500
+    Port_RangeMinB_N076:
+      typeIdx: 1
+      value: 0.150000
+    Port_Scale_N057:
+      typeIdx: 3
+      value: {x: 3.000000, y: 3.000000}
+    Port_SpecularAO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    exponent:
+      typeIdx: 1
+      value: 0.730000
+    iridescenceMap:
+      typeIdx: 9
+      value:
+        id: 6390c3d6-46c1-4993-abd6-fd401d25429a
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+          mipmaps: true
+    noiseIntensity:
+      typeIdx: 1
+      value: 0.000000
+    noiseScale:
+      typeIdx: 3
+      value: {x: 0.600000, y: 0.600000}
+    opacity:
+      typeIdx: 1
+      value: 0.070000
+    roughness:
+      typeIdx: 1
+      value: 0.000000
+    thinFilmWeight:
+      typeIdx: 1
+      value: 0.270000
+  Pass: !<reference> cb0d211d-b254-4408-aa53-5bfb424e3215

@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/9cb4b436-52d8-4a1d-931f-9c5f85846dc5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 80f3b0db-e1f9-432c-a3e6-2a025cdd672c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 80f3b0db-e1f9-432c-a3e6-2a025cdd672c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 0765d6ca-2e47-4ebd-94bf-6f95f7e88745
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3d81c6c7-c9ff-443d-bc04-298e9c9296ab>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/0765d6ca-2e47-4ebd-94bf-6f95f7e88745>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    handCollidersL: false
+    handCollidersR: false
+    handJointsL: false
+    handJointsR: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - handCollidersL: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      handCollidersR: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      handJointsL: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handJointsR: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
